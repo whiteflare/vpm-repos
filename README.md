@@ -1,12 +1,12 @@
 # vpm-repos
 
-whiteflare ‚Ìì¬‚µ‚½ƒc[ƒ‹—Ş‚Ì VPM ƒŠƒ|ƒWƒgƒŠ‚Å‚·B
+whiteflare ã®ä½œæˆã—ãŸãƒ„ãƒ¼ãƒ«é¡ã® VPM ãƒªãƒã‚¸ãƒˆãƒªã§ã™ã€‚
 
-## VCC‚Ö‚Ì’Ç‰Á•û–@
+## VCCã¸ã®è¿½åŠ æ–¹æ³•
 
-[Add Repository To CreatorCompanion](https://whiteflare.github.io/vpm-repos/addrepos.html) ‚ğƒNƒŠƒbƒN‚·‚é‚±‚Æ‚Å’Ç‰Á‚Å‚«‚Ü‚·B
+[Add Repository To CreatorCompanion](https://whiteflare.github.io/vpm-repos/addrepos.html) ã‚’ã‚¯ãƒªãƒƒã‚¯ã™ã‚‹ã“ã¨ã§è¿½åŠ ã§ãã¾ã™ã€‚
 
-Repository JSON ‚ÍŸ‚ÌêŠ‚É‚ ‚è‚Ü‚·BŸ‚ÌURL‚ğVCC‚ÌSettings‚É‚Ä’Ç‰Á‚·‚é‚±‚Æ‚Å‚àƒŠƒ|ƒWƒgƒŠ‚ğ’Ç‰Á‚Å‚«‚Ü‚·B
+Repository JSON ã¯æ¬¡ã®å ´æ‰€ã«ã‚ã‚Šã¾ã™ã€‚æ¬¡ã®URLã‚’VCCã®Settingsã«ã¦è¿½åŠ ã™ã‚‹ã“ã¨ã§ã‚‚ãƒªãƒã‚¸ãƒˆãƒªã‚’è¿½åŠ ã§ãã¾ã™ã€‚
 ```
 https://whiteflare.github.io/vpm-repos/vpm.json
 ```
