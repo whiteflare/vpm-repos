@@ -75,6 +75,20 @@
 						"Assets\\Unlit_WF_ShaderSuite": ""
 					},
 					"legacyFiles": {}
+				},
+				"1.5.0": {
+					"name": "jp.whiteflare.unlitwf",
+					"version": "1.5.0",
+					"displayName": "UnlitWF Shader",
+					"description": "General Shader Pack for VRChat, Unity.",
+					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20231011/jp.whiteflare.unlitwf-1.5.0.zip?",
+					"vpmDependencies" : {
+						"jp.whiteflare.unlitwf.texpack" : "^1.0.0"
+					},
+					"legacyFolders": {
+						"Assets\\Unlit_WF_ShaderSuite": ""
+					},
+					"legacyFiles": {}
 				}
 			}
 		},
