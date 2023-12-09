@@ -117,6 +117,20 @@
 						"Assets\\Unlit_WF_ShaderSuite": ""
 					},
 					"legacyFiles": {}
+				},
+				"1.7.0": {
+					"name": "jp.whiteflare.unlitwf",
+					"version": "1.7.0",
+					"displayName": "UnlitWF Shader",
+					"description": "General Shader Pack for VRChat, Unity.",
+					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20231210/jp.whiteflare.unlitwf-1.7.0.zip?",
+					"vpmDependencies" : {
+						"jp.whiteflare.unlitwf.texpack" : "^1.1.0"
+					},
+					"legacyFolders": {
+						"Assets\\Unlit_WF_ShaderSuite": ""
+					},
+					"legacyFiles": {}
 				}
 			}
 		},
@@ -128,6 +142,18 @@
 					"displayName": "UnlitWF TexturePack",
 					"description": "Texture material pack for UnlitWF shaders.",
 					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20230506/jp.whiteflare.unlitwf.texpack-1.0.0.zip?",
+					"vpmDependencies" : {},
+					"legacyFolders": {
+						"Assets\\Unlit_WF_ShaderSuite\\Texture": "331497fcbc7fc8e459baa9751d01bf77"
+					},
+					"legacyFiles": {}
+				},
+				"1.1.0": {
+					"name": "jp.whiteflare.unlitwf.texpack",
+					"version": "1.1.0",
+					"displayName": "UnlitWF TexturePack",
+					"description": "Texture material pack for UnlitWF shaders.",
+					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20231210/jp.whiteflare.unlitwf.texpack-1.1.0.zip?",
 					"vpmDependencies" : {},
 					"legacyFolders": {
 						"Assets\\Unlit_WF_ShaderSuite\\Texture": "331497fcbc7fc8e459baa9751d01bf77"
