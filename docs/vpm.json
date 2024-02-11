@@ -213,6 +213,18 @@
 						"Assets\\Unlit_WF_ShaderSuite\\Texture": "331497fcbc7fc8e459baa9751d01bf77"
 					},
 					"legacyFiles": {}
+				},
+				"1.1.2": {
+					"name": "jp.whiteflare.unlitwf.texpack",
+					"version": "1.1.2",
+					"displayName": "UnlitWF TexturePack",
+					"description": "Texture material pack for UnlitWF shaders.",
+					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20240212/jp.whiteflare.unlitwf.texpack-1.1.2.zip?",
+					"vpmDependencies" : {},
+					"legacyFolders": {
+						"Assets\\Unlit_WF_ShaderSuite\\Texture": "331497fcbc7fc8e459baa9751d01bf77"
+					},
+					"legacyFiles": {}
 				}
 			}
 		},
