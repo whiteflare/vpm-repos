@@ -208,6 +208,7 @@
 					"displayName": "UnlitWF Shader",
 					"description": "General Shader Pack for VRChat, Unity.",
 					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20240407/jp.whiteflare.unlitwf-1.12.1.zip?",
+					"unity": "2019.1",
 					"vpmDependencies" : {
 						"jp.whiteflare.unlitwf.texpack" : "^1.1.0"
 					},
@@ -498,6 +499,7 @@
 					"displayName": "Flare's Avatar Tools",
 					"description": "Flare's Avatar Tools",
 					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.8.0/jp.whiteflare.avatartools-1.8.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies": {
 						"com.vrchat.avatars": "^3.1.13"
 					},
