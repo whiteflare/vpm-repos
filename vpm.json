@@ -12,6 +12,7 @@
 					"displayName": "UnlitWF Shader",
 					"description": "General Shader Pack for VRChat, Unity.",
 					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20230506/jp.whiteflare.unlitwf-1.0.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies" : {
 						"jp.whiteflare.unlitwf.texpack" : "^1.0.0"
 					},
@@ -26,6 +27,7 @@
 					"displayName": "UnlitWF Shader",
 					"description": "General Shader Pack for VRChat, Unity.",
 					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20230603/jp.whiteflare.unlitwf-1.1.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies" : {
 						"jp.whiteflare.unlitwf.texpack" : "^1.0.0"
 					},
@@ -40,6 +42,7 @@
 					"displayName": "UnlitWF Shader",
 					"description": "General Shader Pack for VRChat, Unity.",
 					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20230625/jp.whiteflare.unlitwf-1.2.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies" : {
 						"jp.whiteflare.unlitwf.texpack" : "^1.0.0"
 					},
@@ -54,6 +57,7 @@
 					"displayName": "UnlitWF Shader",
 					"description": "General Shader Pack for VRChat, Unity.",
 					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20230710/jp.whiteflare.unlitwf-1.3.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies" : {
 						"jp.whiteflare.unlitwf.texpack" : "^1.0.0"
 					},
@@ -68,6 +72,7 @@
 					"displayName": "UnlitWF Shader",
 					"description": "General Shader Pack for VRChat, Unity.",
 					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20230827/jp.whiteflare.unlitwf-1.4.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies" : {
 						"jp.whiteflare.unlitwf.texpack" : "^1.0.0"
 					},
@@ -82,6 +87,7 @@
 					"displayName": "UnlitWF Shader",
 					"description": "General Shader Pack for VRChat, Unity.",
 					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20231011/jp.whiteflare.unlitwf-1.5.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies" : {
 						"jp.whiteflare.unlitwf.texpack" : "^1.0.0"
 					},
@@ -96,6 +102,7 @@
 					"displayName": "UnlitWF Shader",
 					"description": "General Shader Pack for VRChat, Unity.",
 					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20231105/jp.whiteflare.unlitwf-1.6.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies" : {
 						"jp.whiteflare.unlitwf.texpack" : "^1.0.0"
 					},
@@ -110,6 +117,7 @@
 					"displayName": "UnlitWF Shader",
 					"description": "General Shader Pack for VRChat, Unity.",
 					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20231106/jp.whiteflare.unlitwf-1.6.1.zip?",
+					"unity": "2019.1",
 					"vpmDependencies" : {
 						"jp.whiteflare.unlitwf.texpack" : "^1.0.0"
 					},
@@ -124,6 +132,7 @@
 					"displayName": "UnlitWF Shader",
 					"description": "General Shader Pack for VRChat, Unity.",
 					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20231210/jp.whiteflare.unlitwf-1.7.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies" : {
 						"jp.whiteflare.unlitwf.texpack" : "^1.1.0"
 					},
@@ -138,6 +147,7 @@
 					"displayName": "UnlitWF Shader",
 					"description": "General Shader Pack for VRChat, Unity.",
 					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20240101/jp.whiteflare.unlitwf-1.8.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies" : {
 						"jp.whiteflare.unlitwf.texpack" : "^1.1.0"
 					},
@@ -152,6 +162,7 @@
 					"displayName": "UnlitWF Shader",
 					"description": "General Shader Pack for VRChat, Unity.",
 					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20240128/jp.whiteflare.unlitwf-1.9.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies" : {
 						"jp.whiteflare.unlitwf.texpack" : "^1.1.0"
 					},
@@ -166,6 +177,7 @@
 					"displayName": "UnlitWF Shader",
 					"description": "General Shader Pack for VRChat, Unity.",
 					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20240212/jp.whiteflare.unlitwf-1.10.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies" : {
 						"jp.whiteflare.unlitwf.texpack" : "^1.1.0"
 					},
@@ -180,6 +192,7 @@
 					"displayName": "UnlitWF Shader",
 					"description": "General Shader Pack for VRChat, Unity.",
 					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20240310/jp.whiteflare.unlitwf-1.11.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies" : {
 						"jp.whiteflare.unlitwf.texpack" : "^1.1.0"
 					},
@@ -194,6 +207,7 @@
 					"displayName": "UnlitWF Shader",
 					"description": "General Shader Pack for VRChat, Unity.",
 					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20240316/jp.whiteflare.unlitwf-1.12.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies" : {
 						"jp.whiteflare.unlitwf.texpack" : "^1.1.0"
 					},
@@ -227,6 +241,7 @@
 					"displayName": "UnlitWF TexturePack",
 					"description": "Texture material pack for UnlitWF shaders.",
 					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20230506/jp.whiteflare.unlitwf.texpack-1.0.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies" : {},
 					"legacyFolders": {
 						"Assets\\Unlit_WF_ShaderSuite\\Texture": "331497fcbc7fc8e459baa9751d01bf77"
@@ -239,6 +254,7 @@
 					"displayName": "UnlitWF TexturePack",
 					"description": "Texture material pack for UnlitWF shaders.",
 					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20231210/jp.whiteflare.unlitwf.texpack-1.1.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies" : {},
 					"legacyFolders": {
 						"Assets\\Unlit_WF_ShaderSuite\\Texture": "331497fcbc7fc8e459baa9751d01bf77"
@@ -251,6 +267,7 @@
 					"displayName": "UnlitWF TexturePack",
 					"description": "Texture material pack for UnlitWF shaders.",
 					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20240101/jp.whiteflare.unlitwf.texpack-1.1.1.zip?",
+					"unity": "2019.1",
 					"vpmDependencies" : {},
 					"legacyFolders": {
 						"Assets\\Unlit_WF_ShaderSuite\\Texture": "331497fcbc7fc8e459baa9751d01bf77"
@@ -263,6 +280,7 @@
 					"displayName": "UnlitWF TexturePack",
 					"description": "Texture material pack for UnlitWF shaders.",
 					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20240212/jp.whiteflare.unlitwf.texpack-1.1.2.zip?",
+					"unity": "2019.1",
 					"vpmDependencies" : {},
 					"legacyFolders": {
 						"Assets\\Unlit_WF_ShaderSuite\\Texture": "331497fcbc7fc8e459baa9751d01bf77"
@@ -275,6 +293,7 @@
 					"displayName": "UnlitWF TexturePack",
 					"description": "Texture material pack for UnlitWF shaders.",
 					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20240310/jp.whiteflare.unlitwf.texpack-1.1.3.zip?",
+					"unity": "2019.1",
 					"vpmDependencies" : {},
 					"legacyFolders": {
 						"Assets\\Unlit_WF_ShaderSuite\\Texture": "331497fcbc7fc8e459baa9751d01bf77"
@@ -291,6 +310,7 @@
 					"displayName": "Flare's Avatar Tools",
 					"description": "Flare's Avatar Tools",
 					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.1.0/jp.whiteflare.avatartools-1.1.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies": {
 						"com.vrchat.avatars": "^3.1.13"
 					},
@@ -311,6 +331,7 @@
 					"displayName": "Flare's Avatar Tools",
 					"description": "Flare's Avatar Tools",
 					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.2.0/jp.whiteflare.avatartools-1.2.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies": {
 						"com.vrchat.avatars": "^3.1.13"
 					},
@@ -331,6 +352,7 @@
 					"displayName": "Flare's Avatar Tools",
 					"description": "Flare's Avatar Tools",
 					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.3.0/jp.whiteflare.avatartools-1.3.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies": {
 						"com.vrchat.avatars": "^3.1.13"
 					},
@@ -352,6 +374,7 @@
 					"displayName": "Flare's Avatar Tools",
 					"description": "Flare's Avatar Tools",
 					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.4.0/jp.whiteflare.avatartools-1.4.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies": {
 						"com.vrchat.avatars": "^3.1.13"
 					},
@@ -373,6 +396,7 @@
 					"displayName": "Flare's Avatar Tools",
 					"description": "Flare's Avatar Tools",
 					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.4.1/jp.whiteflare.avatartools-1.4.1.zip?",
+					"unity": "2019.1",
 					"vpmDependencies": {
 						"com.vrchat.avatars": "^3.1.13"
 					},
@@ -394,6 +418,7 @@
 					"displayName": "Flare's Avatar Tools",
 					"description": "Flare's Avatar Tools",
 					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.4.2/jp.whiteflare.avatartools-1.4.2.zip?",
+					"unity": "2019.1",
 					"vpmDependencies": {
 						"com.vrchat.avatars": "^3.1.13"
 					},
@@ -415,6 +440,7 @@
 					"displayName": "Flare's Avatar Tools",
 					"description": "Flare's Avatar Tools",
 					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.5.0/jp.whiteflare.avatartools-1.5.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies": {
 						"com.vrchat.avatars": "^3.1.13"
 					},
@@ -436,6 +462,7 @@
 					"displayName": "Flare's Avatar Tools",
 					"description": "Flare's Avatar Tools",
 					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.6.0/jp.whiteflare.avatartools-1.6.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies": {
 						"com.vrchat.avatars": "^3.1.13"
 					},
@@ -457,6 +484,7 @@
 					"displayName": "Flare's Avatar Tools",
 					"description": "Flare's Avatar Tools",
 					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.6.1/jp.whiteflare.avatartools-1.6.1.zip?",
+					"unity": "2019.1",
 					"vpmDependencies": {
 						"com.vrchat.avatars": "^3.1.13"
 					},
@@ -478,6 +506,7 @@
 					"displayName": "Flare's Avatar Tools",
 					"description": "Flare's Avatar Tools",
 					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.7.0/jp.whiteflare.avatartools-1.7.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies": {
 						"com.vrchat.avatars": "^3.1.13"
 					},
@@ -525,6 +554,7 @@
 					"displayName": "Flare's World Tools",
 					"description": "Flare's World Tools",
 					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.1.0/jp.whiteflare.worldtools-1.1.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies": {
 						"com.vrchat.clientsim": "^1.2.2"
 					},
@@ -547,6 +577,7 @@
 					"displayName": "Flare's World Tools",
 					"description": "Flare's World Tools",
 					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.2.0/jp.whiteflare.worldtools-1.2.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies": {
 						"com.vrchat.clientsim": "^1.2.2"
 					},
@@ -569,6 +600,7 @@
 					"displayName": "Flare's World Tools",
 					"description": "Flare's World Tools",
 					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.3.0/jp.whiteflare.worldtools-1.3.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies": {
 						"com.vrchat.clientsim": "^1.2.2"
 					},
@@ -591,6 +623,7 @@
 					"displayName": "Flare's World Tools",
 					"description": "Flare's World Tools",
 					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.4.0/jp.whiteflare.worldtools-1.4.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies": {
 						"com.vrchat.worlds": "^3.1.13"
 					},
@@ -613,6 +646,7 @@
 					"displayName": "Flare's World Tools",
 					"description": "Flare's World Tools",
 					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.4.1/jp.whiteflare.worldtools-1.4.1.zip?",
+					"unity": "2019.1",
 					"vpmDependencies": {
 						"com.vrchat.worlds": "^3.1.13"
 					},
@@ -635,6 +669,7 @@
 					"displayName": "Flare's World Tools",
 					"description": "Flare's World Tools",
 					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.4.2/jp.whiteflare.worldtools-1.4.2.zip?",
+					"unity": "2019.1",
 					"vpmDependencies": {
 						"com.vrchat.worlds": "^3.1.13"
 					},
@@ -657,6 +692,7 @@
 					"displayName": "Flare's World Tools",
 					"description": "Flare's World Tools",
 					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.5.0/jp.whiteflare.worldtools-1.5.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies": {
 						"com.vrchat.worlds": "^3.1.13"
 					},
@@ -679,6 +715,7 @@
 					"displayName": "Flare's World Tools",
 					"description": "Flare's World Tools",
 					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.6.0/jp.whiteflare.worldtools-1.6.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies": {
 						"com.vrchat.worlds": "^3.1.13"
 					},
@@ -701,6 +738,7 @@
 					"displayName": "Flare's World Tools",
 					"description": "Flare's World Tools",
 					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.6.1/jp.whiteflare.worldtools-1.6.1.zip?",
+					"unity": "2019.1",
 					"vpmDependencies": {
 						"com.vrchat.worlds": "^3.1.13"
 					},
@@ -723,6 +761,7 @@
 					"displayName": "Flare's World Tools",
 					"description": "Flare's World Tools",
 					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.7.0/jp.whiteflare.worldtools-1.7.0.zip?",
+					"unity": "2019.1",
 					"vpmDependencies": {
 						"com.vrchat.worlds": "^3.1.13"
 					},
