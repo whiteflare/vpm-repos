@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="ja" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-tools/AnimEditUtility" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.2.1">
+<title data-rh="true">AnimEditUtility | whiteflare’s vpm-repos</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://whiteflare.github.io/vpm-repos/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://whiteflare.github.io/vpm-repos/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://whiteflare.github.io/vpm-repos/docs/tools/AnimEditUtility"><meta data-rh="true" property="og:locale" content="ja"><meta data-rh="true" name="docusaurus_locale" content="ja"><meta data-rh="true" name="docsearch:language" content="ja"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="AnimEditUtility | whiteflare’s vpm-repos"><meta data-rh="true" name="description" content="Unity の AnimatorController や VRCSDK3 の VRCExpressionParameters などを編集するユーティリティです。"><meta data-rh="true" property="og:description" content="Unity の AnimatorController や VRCSDK3 の VRCExpressionParameters などを編集するユーティリティです。"><link data-rh="true" rel="icon" href="/vpm-repos/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://whiteflare.github.io/vpm-repos/docs/tools/AnimEditUtility"><link data-rh="true" rel="alternate" href="https://whiteflare.github.io/vpm-repos/docs/tools/AnimEditUtility" hreflang="ja"><link data-rh="true" rel="alternate" href="https://whiteflare.github.io/vpm-repos/docs/tools/AnimEditUtility" hreflang="x-default"><link rel="stylesheet" href="/vpm-repos/assets/css/styles.e6e138b2.css">
+<script src="/vpm-repos/assets/js/runtime~main.c05045cb.js" defer="defer"></script>
+<script src="/vpm-repos/assets/js/main.a27017d5.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="メインコンテンツまでスキップ"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">メインコンテンツまでスキップ</a></div><nav aria-label="ナビゲーション" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="ナビゲーションバーを開く" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/vpm-repos/"><div class="navbar__logo"><img src="/vpm-repos/img/logo.svg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/vpm-repos/img/logo.svg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">whiteflare’s vpm-repos</b></a><a href="https://whiteflare.github.io/vpm-repos/addrepos.html" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">VCCに追加<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><a class="navbar__item navbar__link" href="/vpm-repos/docs/intro">説明書</a></div><div class="navbar__items navbar__items--right"><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="先頭へ戻る" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="ドキュメントのサイドバー" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/vpm-repos/docs/intro">intro</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/vpm-repos/docs/unlitwf">UnlitWF Shader</a><button aria-label="&#x27;UnlitWF Shader&#x27;の目次を開く" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" href="/vpm-repos/docs/tools">Flare&#x27;s Tools</a><button aria-label="&#x27;Flare&#x27;s Tools&#x27;の目次を隠す" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/vpm-repos/docs/tools/AnimEditUtility">AnimEditUtility</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/vpm-repos/docs/tools/AvatarCopyUtility">AvatarCopyUtility</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/vpm-repos/docs/tools/AvatarTextureTool">AvatarTextureTool</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/vpm-repos/docs/tools/BakedLightmapBaker">BakedLightmapBaker</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/vpm-repos/docs/tools/BakeKillerFinder">BakeKillerFinder改</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/vpm-repos/docs/tools/BoundsUnificator">BoundsUnificator</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/vpm-repos/docs/tools/HierarchyHelper">HierarchyHelper</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/vpm-repos/docs/tools/LightmapControlPanel">LightmapControlPanel</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/vpm-repos/docs/tools/LightProbeEditUtility">LightProbeEditUtility</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/vpm-repos/docs/tools/MeshPolyCounter">MeshPolyCounter</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/vpm-repos/docs/tools/PhysBoneSetupHelper">PhysBoneSetupHelper</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/vpm-repos/docs/tools/SplitterObjects">SplitterObjects</a></li></ul></li></ul></nav><button type="button" title="サイドバーを隠す" aria-label="サイドバーを隠す" class="button button--secondary button--outline collapseSidebarButton_PEFL"><svg width="20" height="20" aria-hidden="true" class="collapseSidebarButtonIcon_kv0_"><g fill="#7a7a7a"><path d="M9.992 10.023c0 .2-.062.399-.172.547l-4.996 7.492a.982.982 0 01-.828.454H1c-.55 0-1-.453-1-1 0-.2.059-.403.168-.551l4.629-6.942L.168 3.078A.939.939 0 010 2.528c0-.548.45-.997 1-.997h2.996c.352 0 .649.18.828.45L9.82 9.472c.11.148.172.347.172.55zm0 0"></path><path d="M19.98 10.023c0 .2-.058.399-.168.547l-4.996 7.492a.987.987 0 01-.828.454h-3c-.547 0-.996-.453-.996-1 0-.2.059-.403.168-.551l4.625-6.942-4.625-6.945a.939.939 0 01-.168-.55 1 1 0 01.996-.997h3c.348 0 .649.18.828.45l4.996 7.492c.11.148.168.347.168.55zm0 0"></path></g></svg></button></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="パンくずリストのナビゲーション"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="ホームページ" class="breadcrumbs__link" href="/vpm-repos/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item"><a class="breadcrumbs__link" itemprop="item" href="/vpm-repos/docs/tools"><span itemprop="name">Flare&#x27;s Tools</span></a><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">AnimEditUtility</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">このページの見出し</button></div><div class="theme-doc-markdown markdown"><h1>AnimEditUtility</h1>
+<p>Unity の AnimatorController や VRCSDK3 の VRCExpressionParameters などを編集するユーティリティです。<br>
+<!-- -->なお、このツールは「Avatars3.0 の AnimatorController 編集に慣れている人が、定形作業を効率化するために」作成したツールです。Avatars3.0 の知識をかなり使用しますのでご注意ください。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="使い方">使い方<a href="#使い方" class="hash-link" aria-label="使い方 への直接リンク" title="使い方 への直接リンク">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ユーティリティを開く">ユーティリティを開く<a href="#ユーティリティを開く" class="hash-link" aria-label="ユーティリティを開く への直接リンク" title="ユーティリティを開く への直接リンク">​</a></h3>
+<p>Unity のメニューから <code>Tools</code> → <code>whiteflare</code> → <code>Anim Edit Utility</code> を選択すると、ウィンドウが開きます。</p>
+<p><img decoding="async" loading="lazy" alt="Image" src="/vpm-repos/assets/images/AnimEditUtility-01-523ffb214fd6ad8c31a8a7defbf89c11.png" width="665" height="646" class="img_ev3q"></p>
+<p>アバターのルートオブジェクトを <code>Avatar Root</code> に設定してください。
+VRCAvatarDescriptor から AnimationController, ExpressionParameter, ExpressionMenu を検索してフィールドに設定します。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="A">使い方A：New Layer (新規レイヤーの作成 → Parameters登録 → Menu登録)<a href="#A" class="hash-link" aria-label="使い方A：New Layer (新規レイヤーの作成 → Parameters登録 → Menu登録) への直接リンク" title="使い方A：New Layer (新規レイヤーの作成 → Parameters登録 → Menu登録) への直接リンク">​</a></h3>
+<p>この手順を実施すると、AnimatorController に新しいレイヤーが作成され、Parameters/Menu が追加されます。
+予め切り替えたい AnimationClip を準備してください。</p>
+<ul>
+<li>AnimatorController に、AnimationClip を切り替える新規レイヤーを作成します。</li>
+<li>VRCExpressionParameters にパラメータを追加します。</li>
+<li>VRCExpressionMenu にメニューを追加します。</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="Image" src="/vpm-repos/assets/images/AnimEditUtility-02-5e27502565a37b07eb13726c20926761.png" width="665" height="646" class="img_ev3q"></p>
+<p>切り替える AnimationClip を設定します。欄は <code>Add</code> <code>Del</code> にて増減できます。
+<code>Gen</code> を押すと、None が指定されている欄に新しい AnimationClip が作成されてセットされます。</p>
+<p><code>Add New Layer</code> を押すと、AnimatorController に新しいレイヤーが作成され、State と Transition が設定されます。また Parameters にも変数が追加されます。</p>
+<p><img decoding="async" loading="lazy" alt="Image" src="/vpm-repos/assets/images/AnimEditUtility-03-ce5918338adaa576cffcaf19234735d3.png" width="870" height="410" class="img_ev3q"></p>
+<p>VRCExpressionParameters にパラメータが追加されます。</p>
+<p><img decoding="async" loading="lazy" alt="Image" src="/vpm-repos/assets/images/AnimEditUtility-04-bc1589db5826c2b98b1e18b861915490.png" width="559" height="309" class="img_ev3q"></p>
+<p><code>Add Menu</code> を押すと、VRCExpressionMenu に Toggle タイプのメニューが追加されます。</p>
+<p><img decoding="async" loading="lazy" alt="Image" src="/vpm-repos/assets/images/AnimEditUtility-05-a4e5b5e84c898e6ddb685cc7713705af.png" width="537" height="517" class="img_ev3q"></p>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="メモ">メモ<a href="#メモ" class="hash-link" aria-label="メモ への直接リンク" title="メモ への直接リンク">​</a></h5>
+<ul>
+<li>AnimatorController への追加について<!-- -->
+<ul>
+<li>AnimatorController 内に、レイヤー  名・変数名と同じものが存在する場合、注意を促すためフィールドが黄色になる。<!-- -->
+<ul>
+<li>レイヤー名と同じ名前のレイヤーが既にある場合、同名のレイヤーが追加される (レイヤー名は重複が認められている)。</li>
+<li>変数名と同じ名前のパラメータが既にある場合、新しいパラメータは作成されず、既存のパラメータを使う形で設定される。</li>
+</ul>
+</li>
+<li>レイヤー名と変数名には別の文字列を指定することもできる。</li>
+<li>変数の型は、Clip が2個までならば bool になるが、3個以上は int である必要がある。</li>
+<li>AnimatorController の中に Write Defaults が true の state がひとつでもある場合は、Write Defaults のチェックボックスがオンになる。</li>
+<li>Animation Clip を全て None でもレイヤー生成自体には問題ない。Motion が未指定の State が、指定の個数だけ用意される。</li>
+</ul>
+</li>
+<li>VRCExpressionParameters への登録について<!-- -->
+<ul>
+<li>VRCExpressionParameters がフィールドに未指定の場合、パラメータの追加処理はスキップされる。</li>
+<li>追加しようとしている変数が既に存在する場合は追加しない。</li>
+</ul>
+</li>
+<li>VRCExpressionsMenu への登録について<!-- -->
+<ul>
+<li>VRCExpressionsMenu がフィールドに未指定の場合、メニューの追加処理はスキップされる。</li>
+<li><code>最初のクリップも追加する</code> がチェックされていない場合、メニュー項目には Element 0 のクリップは追加されない。(通常が Clip 0 で、Toggle すると Clip 1～に切り替わるスタイルのメニュー)</li>
+<li><code>最初のクリップも追加する</code> がチェックされている場合、メニュー項目には Element 0 のクリップも追加される。(各状態を並べて、今がどの状態かリングメニューから確認できるスタイルのメニュー)</li>
+<li>VRCExpressionsMenu に登録できる数は8個までなので、それ以上の項目は追加されずに無視される。</li>
+<li><code>New SubMenu</code> を押すと、新しい VRCExpressionsMenu が作成されてフィールドに設定される。<!-- -->
+<ul>
+<li>このとき新しい Menu が SubMenu として、元の Menu に追加される。(20220921版以降の仕様)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="B">使い方B：Copy Layer (既存レイヤーのコピー)<a href="#B" class="hash-link" aria-label="使い方B：Copy Layer (既存レイヤーのコピー) への直接リンク" title="使い方B：Copy Layer (既存レイヤーのコピー) への直接リンク">​</a></h3>
+<p>AnimatorControllerLayer をコピーします。コピー元コピー先の AnimatorController は同じものを指定することもできますし、異なる AnimatorController を指定して AnimatorController 間でレイヤーをコピーすることもできます。</p>
+<p><img decoding="async" loading="lazy" alt="Image" src="/vpm-repos/assets/images/AnimEditUtility-06-b0c9eae3dc97efed3a712d7bc123f8ea.png" width="665" height="583" class="img_ev3q"></p>
+<p>各レイヤーで使われている変数が、コピー先の AnimatorController に存在しない場合、新しい変数が追加されます。
+ReplaceParameter が指定されているとき、コピー先のレイヤーに使われている変数が置換されます。
+ExParam が指定されているとき、AnimatorController に新しい変数を追加するときに同時に VRCExpressionParameters にも新しい変数が追加されます。(ただし <code>IsLocal</code> といったVRCが動的に変更する変数は追加されません)</p>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="メモ-1">メモ<a href="#メモ-1" class="hash-link" aria-label="メモ への直接リンク" title="メモ への直接リンク">​</a></h5>
+<ul>
+<li>コピー先 AnimatorController 内に、レイヤー名と同じものが存在する場合、注意を促すためフィールドが黄色になる。<!-- -->
+<ul>
+<li>レイヤー名と同じ名前のレイヤーが既にある場合、同名のレイヤーが追加される (レイヤー名は重複が認められている)。</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="C">使い方C：WriteDefault (オンで構成された AnimatorController  を WriteDefault オフに変更する)<a href="#C" class="hash-link" aria-label="使い方C：WriteDefault (オンで構成された AnimatorController  を WriteDefault オフに変更する) への直接リンク" title="使い方C：WriteDefault (オンで構成された AnimatorController  を WriteDefault オフに変更する) への直接リンク">​</a></h3>
+<p>この機能については、Hierarchy にショートカットがあります。</p>
+<ul>
+<li>Hierarchy でアバタールートを右クリック → 『WriteDefaultをオフにする』</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="Image" src="/vpm-repos/assets/images/AnimEditUtility-07-f8bd6e025c567f352ff1e0fc25c1fe11.png" width="431" height="379" class="img_ev3q"></p>
+<p>ユーティリティのウィンドウが開き、AnimatorController には FX レイヤーの Animator がセットされます。</p>
+<p><img decoding="async" loading="lazy" alt="Image" src="/vpm-repos/assets/images/AnimEditUtility-08-bc9417f819d6daa7510e6345aedff013.png" width="665" height="336" class="img_ev3q"></p>
+<p><code>Takedown</code> ボタンを押してください。
+リセット用のアニメーションクリップが生成されるので、適当な場所に保存してください。(各アバターの <code>Animation</code> といった名前のフォルダに保存するのが良いでしょう。
+『オブジェクトを変更しますか？』のダイアログにて OK を押すと、WriteDefaults がオフになります。</p>
+<p>処理としては3 つの動作を行います。</p>
+<ol>
+<li>リセット用アニメーションクリップを生成し、最初のレイヤーの Default State に追加する</li>
+<li>motion = None となっている全ての State に、Empty AnimationClip を設定する</li>
+<li>全ての State の WriteDefaults を False に設定する</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="D">使い方D：Setup AvatarMask (VRC Avatars3.0 の AvatarMask を構成する)<a href="#D" class="hash-link" aria-label="使い方D：Setup AvatarMask (VRC Avatars3.0 の AvatarMask を構成する) への直接リンク" title="使い方D：Setup AvatarMask (VRC Avatars3.0 の AvatarMask を構成する) への直接リンク">​</a></h3>
+<p>この機能については、Hierarchy にショートカットがあります。</p>
+<ul>
+<li>Hierarchy でアバタールートを右クリック → 『AvatarMaskのセットアップ』</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="Image" src="/vpm-repos/assets/images/AnimEditUtility-09-63af806dcab46178de955b37290c4017.png" width="421" height="385" class="img_ev3q"></p>
+<p>ユーティリティのウィンドウが開き、AnimatorController には FX レイヤーの Animator がセットされます。</p>
+<p><img decoding="async" loading="lazy" alt="Image" src="/vpm-repos/assets/images/AnimEditUtility-10-f8eb9c3f4f19f7ea029bb48a585d1723.png" width="665" height="336" class="img_ev3q"></p>
+<p><code>Setup AvatarMask</code> ボタンを押してください。VRCAvatarDescriptor と AnimatorController を変更します。
+また、必要があれば AvatarMask を生成して保存します。生成する場合は、保存先フォルダを指定するダイアログが開きます。生成が不要のときはダイアログは開きません。</p>
+<p>この機能では、VRCAvatarDescriptor の PlayableLayers のうち、デフォルト指定されていない要素の AnimatorController をもとに処理を行います。
+基本的な方針としては『Gesture の 動きを邪魔しないような FX の AvatarMask を作成し、それを設定する』です。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="E">使い方E：Animator Tools (その他のツール  Animator系)<a href="#E" class="hash-link" aria-label="使い方E：Animator Tools (その他のツール  Animator系) への直接リンク" title="使い方E：Animator Tools (その他のツール  Animator系) への直接リンク">​</a></h3>
+<p><img decoding="async" loading="lazy" alt="Image" src="/vpm-repos/assets/images/AnimEditUtility-11-8863a9322bc4c3158faaec7e591e80c0.png" width="665" height="966" class="img_ev3q"></p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="E1">[E1] <code>Write Defaults</code> の一括設定<a href="#E1" class="hash-link" aria-label="E1 への直接リンク" title="E1 への直接リンク">​</a></h4>
+<p>AnimatorController 内の State の Write Defaults を一括設定します。</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="E2">[E2] <code>Can Transition To Self</code> の一括設定<a href="#E2" class="hash-link" aria-label="E2 への直接リンク" title="E2 への直接リンク">​</a></h4>
+<p>AnimatorController 内の Transition の Can Transition To Self を一括設定します。</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="E3">[E3] motion 未指定の State に EmptyAnimationClip を設定する<a href="#E3" class="hash-link" aria-label="[E3] motion 未指定の State に EmptyAnimationClip を設定する への直接リンク" title="[E3] motion 未指定の State に EmptyAnimationClip を設定する への直接リンク">​</a></h4>
+<p>AnimatorController 内にある motion 未指定の State に対し、指定された空AnimationClipを設定します。</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="E4">[E4] AnimatorControllerParameter の名称を置換する<a href="#E4" class="hash-link" aria-label="[E4] AnimatorControllerParameter の名称を置換する への直接リンク" title="[E4] AnimatorControllerParameter の名称を置換する への直接リンク">​</a></h4>
+<p>AnimatorControllerLayer 内で使われている AnimatorControllerParameter の名称を置換します。</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="E5">[E5] AnimatorState の名称を整理する<a href="#E5" class="hash-link" aria-label="[E5] AnimatorState の名称を整理する への直接リンク" title="[E5] AnimatorState の名称を整理する への直接リンク">​</a></h4>
+<p>指定の AnimatorControllerLayer 内にある State の名称に、AnimationClip の名称を設定します。
+名称がレイヤー内で重複する場合は <code> 1</code>, <code> 2</code>, ... と連番を割り振ります。</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="E6">[E6] AnimatorController のクリンナップ<a href="#E6" class="hash-link" aria-label="[E6] AnimatorController のクリンナップ への直接リンク" title="[E6] AnimatorController のクリンナップ への直接リンク">​</a></h4>
+<p>AnimatorController 内にある不要データを削除し、アセット容量の軽量化を施します。
+元の Controller のバックアップとして、同じフォルダ内に <code>_bak</code> を付加したファイルを追加します。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="F">使い方F：AnimClip Tools (その他のツール  AnimationClip系)<a href="#F" class="hash-link" aria-label="使い方F：AnimClip Tools (その他のツール  AnimationClip系) への直接リンク" title="使い方F：AnimClip Tools (その他のツール  AnimationClip系) への直接リンク">​</a></h3>
+<p><img decoding="async" loading="lazy" alt="Image" src="/vpm-repos/assets/images/AnimEditUtility-12-1efdac24d4062e2bddf5a77b4c5d3678.png" width="665" height="695" class="img_ev3q"></p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="F1">[F1] LoopTime の一括設定<a href="#F1" class="hash-link" aria-label="[F1] LoopTime の一括設定 への直接リンク" title="[F1] LoopTime の一括設定 への直接リンク">​</a></h4>
+<p>AnimationClip の LoopTime を一括で設定します。</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="F2">[F2] AnimationClip のプロパティコピー(ただし既に存在するものは置き換えない)<a href="#F2" class="hash-link" aria-label="[F2] AnimationClip のプロパティコピー(ただし既に存在するものは置き換えない) への直接リンク" title="[F2] AnimationClip のプロパティコピー(ただし既に存在するものは置き換えない) への直接リンク">​</a></h4>
+<p>Source に指定された AnimationClip から、Destination に指定した AnimationClip にプロパティをコピーします。ただし Destination に既に存在するプロパティはコピーされません。
+Destination には複数の AnimationClip を指定することができます。</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="F3">[F3] リセット用 AnimationClip の作成<a href="#F3" class="hash-link" aria-label="[F3] リセット用 AnimationClip の作成 への直接リンク" title="[F3] リセット用 AnimationClip の作成 への直接リンク">​</a></h4>
+<p>複数の AnimationClip が変更する全ての Property を含む、ひとつの AnimationClip を作成します。
+AnimatorController を指定して配下の AnimationClip を検索させることも、AnimationClip を直接指定することもできます。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="G">使い方G：AvatarMask Tools (その他のツール  AvatarMask系)<a href="#G" class="hash-link" aria-label="使い方G：AvatarMask Tools (その他のツール  AvatarMask系) への直接リンク" title="使い方G：AvatarMask Tools (その他のツール  AvatarMask系) への直接リンク">​</a></h3>
+<p><img decoding="async" loading="lazy" alt="Image" src="/vpm-repos/assets/images/AnimEditUtility-13-9449df11734189c02bf8e5ca03fc631e.png" width="665" height="652" class="img_ev3q"></p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="G1">[G1] Generate AvatarMask<a href="#G1" class="hash-link" aria-label="[G1] Generate AvatarMask への直接リンク" title="[G1] Generate AvatarMask への直接リンク">​</a></h4>
+<p>Avatar Root をもとに AvatarMask の雛形を作成します。
+初期値を指定することができ、<code>Allow Humanoid</code> は Humanoid 側の許可・拒否を、<code>Allow Transform</code> は Transform 側の許可・拒否をそれぞれ設定することができます。</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="G2">[G2] Edit AvatarMask Transform<a href="#G2" class="hash-link" aria-label="[G2] Edit AvatarMask Transform への直接リンク" title="[G2] Edit AvatarMask Transform への直接リンク">​</a></h4>
+<p>AvatarMask 内に存在する Transform ヒエラルキーの追加・削除を行います。
+<code>Add Transform</code> を押した場合、Avatar Root に含まれているが AvatarMask に含まれていないものを追加します。
+<code>Remove Unmatch Transform</code> を押した場合、AvatarMask に含まれているが Avatar Root に含まれていないものを削除します。</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="G3">[G3] Copy AvatarMask<a href="#G3" class="hash-link" aria-label="[G3] Copy AvatarMask への直接リンク" title="[G3] Copy AvatarMask への直接リンク">​</a></h4>
+<p>AvatarMask 間で設定値のコピーを行います。
+<code>存在しない項目は追加</code> をチェックした場合、コピー元には含まれているがコピー先に含まれていない項目も、コピー先にコピーされます。チェックしていない場合、コピー元・コピー先のどちらにも含まれている項目のみ値がコピーされます。</p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="ドキュメントページ"><a class="pagination-nav__link pagination-nav__link--prev" href="/vpm-repos/docs/tools"><div class="pagination-nav__sublabel">前へ</div><div class="pagination-nav__label">Flare&#x27;s (Avatar|World) Tools</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/vpm-repos/docs/tools/AvatarCopyUtility"><div class="pagination-nav__sublabel">次へ</div><div class="pagination-nav__label">AvatarCopyUtility</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#使い方" class="table-of-contents__link toc-highlight">使い方</a><ul><li><a href="#ユーティリティを開く" class="table-of-contents__link toc-highlight">ユーティリティを開く</a></li><li><a href="#A" class="table-of-contents__link toc-highlight">使い方A：New Layer (新規レイヤーの作成 → Parameters登録 → Menu登録)</a></li><li><a href="#B" class="table-of-contents__link toc-highlight">使い方B：Copy Layer (既存レイヤーのコピー)</a></li><li><a href="#C" class="table-of-contents__link toc-highlight">使い方C：WriteDefault (オンで構成された AnimatorController  を WriteDefault オフに変更する)</a></li><li><a href="#D" class="table-of-contents__link toc-highlight">使い方D：Setup AvatarMask (VRC Avatars3.0 の AvatarMask を構成する)</a></li><li><a href="#E" class="table-of-contents__link toc-highlight">使い方E：Animator Tools (その他のツール  Animator系)</a><ul><li><a href="#E1" class="table-of-contents__link toc-highlight">[E1] <code>Write Defaults</code> の一括設定</a></li><li><a href="#E2" class="table-of-contents__link toc-highlight">[E2] <code>Can Transition To Self</code> の一括設定</a></li><li><a href="#E3" class="table-of-contents__link toc-highlight">[E3] motion 未指定の State に EmptyAnimationClip を設定する</a></li><li><a href="#E4" class="table-of-contents__link toc-highlight">[E4] AnimatorControllerParameter の名称を置換する</a></li><li><a href="#E5" class="table-of-contents__link toc-highlight">[E5] AnimatorState の名称を整理する</a></li><li><a href="#E6" class="table-of-contents__link toc-highlight">[E6] AnimatorController のクリンナップ</a></li></ul></li><li><a href="#F" class="table-of-contents__link toc-highlight">使い方F：AnimClip Tools (その他のツール  AnimationClip系)</a><ul><li><a href="#F1" class="table-of-contents__link toc-highlight">[F1] LoopTime の一括設定</a></li><li><a href="#F2" class="table-of-contents__link toc-highlight">[F2] AnimationClip のプロパティコピー(ただし既に存在するものは置き換えない)</a></li><li><a href="#F3" class="table-of-contents__link toc-highlight">[F3] リセット用 AnimationClip の作成</a></li></ul></li><li><a href="#G" class="table-of-contents__link toc-highlight">使い方G：AvatarMask Tools (その他のツール  AvatarMask系)</a><ul><li><a href="#G1" class="table-of-contents__link toc-highlight">[G1] Generate AvatarMask</a></li><li><a href="#G2" class="table-of-contents__link toc-highlight">[G2] Edit AvatarMask Transform</a></li><li><a href="#G3" class="table-of-contents__link toc-highlight">[G3] Copy AvatarMask</a></li></ul></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/vpm-repos/docs/unlitwf">UnlitWF Shader</a></li><li class="footer__item"><a class="footer__link-item" href="/vpm-repos/docs/tools">Flare&#x27;s Avatar|World Tools</a></li></ul></div><div class="col footer__col"><div class="footer__title">Contact</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://twitter.com/whiteflare" target="_blank" rel="noopener noreferrer" class="footer__link-item">X-Twitter<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://misskey.niri.la/@whiteflare" target="_blank" rel="noopener noreferrer" class="footer__link-item">misskey.niri.la<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://vrchat.com/home/user/usr_31c73d9c-fc74-4291-9e84-fb44e4f90c6c" target="_blank" rel="noopener noreferrer" class="footer__link-item">VRChat Profile<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://github.com/whiteflare" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2024 whiteflare. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>
