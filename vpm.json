@@ -1,0 +1,784 @@
+{
+	"name": "whiteflare",
+	"id": "jp.whiteflare.vpm",
+	"author": "whiteflare",
+	"url": "https://whiteflare.github.io/vpm-repos/vpm.json",
+	"packages": {
+		"jp.whiteflare.unlitwf": {
+			"versions": {
+				"1.0.0": {
+					"name": "jp.whiteflare.unlitwf",
+					"version": "1.0.0",
+					"displayName": "UnlitWF Shader",
+					"description": "General Shader Pack for VRChat, Unity.",
+					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20230506/jp.whiteflare.unlitwf-1.0.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies" : {
+						"jp.whiteflare.unlitwf.texpack" : "^1.0.0"
+					},
+					"legacyFolders": {
+						"Assets\\Unlit_WF_ShaderSuite": ""
+					},
+					"legacyFiles": {}
+				},
+				"1.1.0": {
+					"name": "jp.whiteflare.unlitwf",
+					"version": "1.1.0",
+					"displayName": "UnlitWF Shader",
+					"description": "General Shader Pack for VRChat, Unity.",
+					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20230603/jp.whiteflare.unlitwf-1.1.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies" : {
+						"jp.whiteflare.unlitwf.texpack" : "^1.0.0"
+					},
+					"legacyFolders": {
+						"Assets\\Unlit_WF_ShaderSuite": ""
+					},
+					"legacyFiles": {}
+				},
+				"1.2.0": {
+					"name": "jp.whiteflare.unlitwf",
+					"version": "1.2.0",
+					"displayName": "UnlitWF Shader",
+					"description": "General Shader Pack for VRChat, Unity.",
+					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20230625/jp.whiteflare.unlitwf-1.2.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies" : {
+						"jp.whiteflare.unlitwf.texpack" : "^1.0.0"
+					},
+					"legacyFolders": {
+						"Assets\\Unlit_WF_ShaderSuite": ""
+					},
+					"legacyFiles": {}
+				},
+				"1.3.0": {
+					"name": "jp.whiteflare.unlitwf",
+					"version": "1.3.0",
+					"displayName": "UnlitWF Shader",
+					"description": "General Shader Pack for VRChat, Unity.",
+					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20230710/jp.whiteflare.unlitwf-1.3.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies" : {
+						"jp.whiteflare.unlitwf.texpack" : "^1.0.0"
+					},
+					"legacyFolders": {
+						"Assets\\Unlit_WF_ShaderSuite": ""
+					},
+					"legacyFiles": {}
+				},
+				"1.4.0": {
+					"name": "jp.whiteflare.unlitwf",
+					"version": "1.4.0",
+					"displayName": "UnlitWF Shader",
+					"description": "General Shader Pack for VRChat, Unity.",
+					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20230827/jp.whiteflare.unlitwf-1.4.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies" : {
+						"jp.whiteflare.unlitwf.texpack" : "^1.0.0"
+					},
+					"legacyFolders": {
+						"Assets\\Unlit_WF_ShaderSuite": ""
+					},
+					"legacyFiles": {}
+				},
+				"1.5.0": {
+					"name": "jp.whiteflare.unlitwf",
+					"version": "1.5.0",
+					"displayName": "UnlitWF Shader",
+					"description": "General Shader Pack for VRChat, Unity.",
+					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20231011/jp.whiteflare.unlitwf-1.5.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies" : {
+						"jp.whiteflare.unlitwf.texpack" : "^1.0.0"
+					},
+					"legacyFolders": {
+						"Assets\\Unlit_WF_ShaderSuite": ""
+					},
+					"legacyFiles": {}
+				},
+				"1.6.0": {
+					"name": "jp.whiteflare.unlitwf",
+					"version": "1.6.0",
+					"displayName": "UnlitWF Shader",
+					"description": "General Shader Pack for VRChat, Unity.",
+					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20231105/jp.whiteflare.unlitwf-1.6.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies" : {
+						"jp.whiteflare.unlitwf.texpack" : "^1.0.0"
+					},
+					"legacyFolders": {
+						"Assets\\Unlit_WF_ShaderSuite": ""
+					},
+					"legacyFiles": {}
+				},
+				"1.6.1": {
+					"name": "jp.whiteflare.unlitwf",
+					"version": "1.6.1",
+					"displayName": "UnlitWF Shader",
+					"description": "General Shader Pack for VRChat, Unity.",
+					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20231106/jp.whiteflare.unlitwf-1.6.1.zip?",
+					"unity": "2019.1",
+					"vpmDependencies" : {
+						"jp.whiteflare.unlitwf.texpack" : "^1.0.0"
+					},
+					"legacyFolders": {
+						"Assets\\Unlit_WF_ShaderSuite": ""
+					},
+					"legacyFiles": {}
+				},
+				"1.7.0": {
+					"name": "jp.whiteflare.unlitwf",
+					"version": "1.7.0",
+					"displayName": "UnlitWF Shader",
+					"description": "General Shader Pack for VRChat, Unity.",
+					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20231210/jp.whiteflare.unlitwf-1.7.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies" : {
+						"jp.whiteflare.unlitwf.texpack" : "^1.1.0"
+					},
+					"legacyFolders": {
+						"Assets\\Unlit_WF_ShaderSuite": ""
+					},
+					"legacyFiles": {}
+				},
+				"1.8.0": {
+					"name": "jp.whiteflare.unlitwf",
+					"version": "1.8.0",
+					"displayName": "UnlitWF Shader",
+					"description": "General Shader Pack for VRChat, Unity.",
+					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20240101/jp.whiteflare.unlitwf-1.8.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies" : {
+						"jp.whiteflare.unlitwf.texpack" : "^1.1.0"
+					},
+					"legacyFolders": {
+						"Assets\\Unlit_WF_ShaderSuite": ""
+					},
+					"legacyFiles": {}
+				},
+				"1.9.0": {
+					"name": "jp.whiteflare.unlitwf",
+					"version": "1.9.0",
+					"displayName": "UnlitWF Shader",
+					"description": "General Shader Pack for VRChat, Unity.",
+					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20240128/jp.whiteflare.unlitwf-1.9.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies" : {
+						"jp.whiteflare.unlitwf.texpack" : "^1.1.0"
+					},
+					"legacyFolders": {
+						"Assets\\Unlit_WF_ShaderSuite": ""
+					},
+					"legacyFiles": {}
+				},
+				"1.10.0": {
+					"name": "jp.whiteflare.unlitwf",
+					"version": "1.10.0",
+					"displayName": "UnlitWF Shader",
+					"description": "General Shader Pack for VRChat, Unity.",
+					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20240212/jp.whiteflare.unlitwf-1.10.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies" : {
+						"jp.whiteflare.unlitwf.texpack" : "^1.1.0"
+					},
+					"legacyFolders": {
+						"Assets\\Unlit_WF_ShaderSuite": ""
+					},
+					"legacyFiles": {}
+				},
+				"1.11.0": {
+					"name": "jp.whiteflare.unlitwf",
+					"version": "1.11.0",
+					"displayName": "UnlitWF Shader",
+					"description": "General Shader Pack for VRChat, Unity.",
+					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20240310/jp.whiteflare.unlitwf-1.11.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies" : {
+						"jp.whiteflare.unlitwf.texpack" : "^1.1.0"
+					},
+					"legacyFolders": {
+						"Assets\\Unlit_WF_ShaderSuite": ""
+					},
+					"legacyFiles": {}
+				},
+				"1.12.0": {
+					"name": "jp.whiteflare.unlitwf",
+					"version": "1.12.0",
+					"displayName": "UnlitWF Shader",
+					"description": "General Shader Pack for VRChat, Unity.",
+					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20240316/jp.whiteflare.unlitwf-1.12.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies" : {
+						"jp.whiteflare.unlitwf.texpack" : "^1.1.0"
+					},
+					"legacyFolders": {
+						"Assets\\Unlit_WF_ShaderSuite": ""
+					},
+					"legacyFiles": {}
+				},
+				"1.12.1": {
+					"name": "jp.whiteflare.unlitwf",
+					"version": "1.12.1",
+					"displayName": "UnlitWF Shader",
+					"description": "General Shader Pack for VRChat, Unity.",
+					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20240407/jp.whiteflare.unlitwf-1.12.1.zip?",
+					"unity": "2019.1",
+					"vpmDependencies" : {
+						"jp.whiteflare.unlitwf.texpack" : "^1.1.0"
+					},
+					"legacyFolders": {
+						"Assets\\Unlit_WF_ShaderSuite": ""
+					},
+					"legacyFiles": {}
+				}
+			}
+		},
+		"jp.whiteflare.unlitwf.texpack": {
+			"versions": {
+				"1.0.0": {
+					"name": "jp.whiteflare.unlitwf.texpack",
+					"version": "1.0.0",
+					"displayName": "UnlitWF TexturePack",
+					"description": "Texture material pack for UnlitWF shaders.",
+					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20230506/jp.whiteflare.unlitwf.texpack-1.0.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies" : {},
+					"legacyFolders": {
+						"Assets\\Unlit_WF_ShaderSuite\\Texture": "331497fcbc7fc8e459baa9751d01bf77"
+					},
+					"legacyFiles": {}
+				},
+				"1.1.0": {
+					"name": "jp.whiteflare.unlitwf.texpack",
+					"version": "1.1.0",
+					"displayName": "UnlitWF TexturePack",
+					"description": "Texture material pack for UnlitWF shaders.",
+					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20231210/jp.whiteflare.unlitwf.texpack-1.1.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies" : {},
+					"legacyFolders": {
+						"Assets\\Unlit_WF_ShaderSuite\\Texture": "331497fcbc7fc8e459baa9751d01bf77"
+					},
+					"legacyFiles": {}
+				},
+				"1.1.1": {
+					"name": "jp.whiteflare.unlitwf.texpack",
+					"version": "1.1.1",
+					"displayName": "UnlitWF TexturePack",
+					"description": "Texture material pack for UnlitWF shaders.",
+					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20240101/jp.whiteflare.unlitwf.texpack-1.1.1.zip?",
+					"unity": "2019.1",
+					"vpmDependencies" : {},
+					"legacyFolders": {
+						"Assets\\Unlit_WF_ShaderSuite\\Texture": "331497fcbc7fc8e459baa9751d01bf77"
+					},
+					"legacyFiles": {}
+				},
+				"1.1.2": {
+					"name": "jp.whiteflare.unlitwf.texpack",
+					"version": "1.1.2",
+					"displayName": "UnlitWF TexturePack",
+					"description": "Texture material pack for UnlitWF shaders.",
+					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20240212/jp.whiteflare.unlitwf.texpack-1.1.2.zip?",
+					"unity": "2019.1",
+					"vpmDependencies" : {},
+					"legacyFolders": {
+						"Assets\\Unlit_WF_ShaderSuite\\Texture": "331497fcbc7fc8e459baa9751d01bf77"
+					},
+					"legacyFiles": {}
+				},
+				"1.1.3": {
+					"name": "jp.whiteflare.unlitwf.texpack",
+					"version": "1.1.3",
+					"displayName": "UnlitWF TexturePack",
+					"description": "Texture material pack for UnlitWF shaders.",
+					"url": "https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/download/UnlitWF_Shader_20240310/jp.whiteflare.unlitwf.texpack-1.1.3.zip?",
+					"unity": "2019.1",
+					"vpmDependencies" : {},
+					"legacyFolders": {
+						"Assets\\Unlit_WF_ShaderSuite\\Texture": "331497fcbc7fc8e459baa9751d01bf77"
+					},
+					"legacyFiles": {}
+				}
+			}
+		},
+		"jp.whiteflare.avatartools": {
+			"versions": {
+				"1.1.0": {
+					"name": "jp.whiteflare.avatartools",
+					"version": "1.1.0",
+					"displayName": "Flare's Avatar Tools",
+					"description": "Flare's Avatar Tools",
+					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.1.0/jp.whiteflare.avatartools-1.1.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies": {
+						"com.vrchat.avatars": "^3.1.13"
+					},
+					"legacyFolders": {
+						"Assets\\whiteflare\\AnimEditUtility": "dfdccec0a7e8acf42af6439586e3fe30",
+						"Assets\\whiteflare\\AvatarCopyUtility": "3b97d7763e106a84085cabe264b91502",
+						"Assets\\whiteflare\\AvatarTexTool": "957ff4a0e9b0a2b4bb5cd5f99498272b",
+						"Assets\\whiteflare\\BoundsUnificator": "e202e341b570b8c4dab04b735bd3feb8",
+						"Assets\\whiteflare\\HierarchyHelper": "97e98175714db7e46b162eb0b12142f7"
+					},
+					"legacyFiles": {
+						"Assets\\whiteflare\\MiscTools\\Editor\\MeshPolyCounter.cs": "8f7ca49ca853c214db6ff6cff7958ac6"
+					}
+				},
+				"1.2.0": {
+					"name": "jp.whiteflare.avatartools",
+					"version": "1.2.0",
+					"displayName": "Flare's Avatar Tools",
+					"description": "Flare's Avatar Tools",
+					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.2.0/jp.whiteflare.avatartools-1.2.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies": {
+						"com.vrchat.avatars": "^3.1.13"
+					},
+					"legacyFolders": {
+						"Assets\\whiteflare\\AnimEditUtility": "dfdccec0a7e8acf42af6439586e3fe30",
+						"Assets\\whiteflare\\AvatarCopyUtility": "3b97d7763e106a84085cabe264b91502",
+						"Assets\\whiteflare\\AvatarTexTool": "957ff4a0e9b0a2b4bb5cd5f99498272b",
+						"Assets\\whiteflare\\BoundsUnificator": "e202e341b570b8c4dab04b735bd3feb8",
+						"Assets\\whiteflare\\HierarchyHelper": "97e98175714db7e46b162eb0b12142f7"
+					},
+					"legacyFiles": {
+						"Assets\\whiteflare\\MiscTools\\Editor\\MeshPolyCounter.cs": "8f7ca49ca853c214db6ff6cff7958ac6"
+					}
+				},
+				"1.3.0": {
+					"name": "jp.whiteflare.avatartools",
+					"version": "1.3.0",
+					"displayName": "Flare's Avatar Tools",
+					"description": "Flare's Avatar Tools",
+					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.3.0/jp.whiteflare.avatartools-1.3.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies": {
+						"com.vrchat.avatars": "^3.1.13"
+					},
+					"legacyFolders": {
+						"Assets\\whiteflare\\AnimEditUtility": "dfdccec0a7e8acf42af6439586e3fe30",
+						"Assets\\whiteflare\\AvatarCopyUtility": "3b97d7763e106a84085cabe264b91502",
+						"Assets\\whiteflare\\AvatarTexTool": "957ff4a0e9b0a2b4bb5cd5f99498272b",
+						"Assets\\whiteflare\\BakeKillerFinder": "7cc23d7c406df304daf95d4c7a0161c5",
+						"Assets\\whiteflare\\BoundsUnificator": "e202e341b570b8c4dab04b735bd3feb8",
+						"Assets\\whiteflare\\HierarchyHelper": "97e98175714db7e46b162eb0b12142f7"
+					},
+					"legacyFiles": {
+						"Assets\\whiteflare\\MiscTools\\Editor\\MeshPolyCounter.cs": "8f7ca49ca853c214db6ff6cff7958ac6"
+					}
+				},
+				"1.4.0": {
+					"name": "jp.whiteflare.avatartools",
+					"version": "1.4.0",
+					"displayName": "Flare's Avatar Tools",
+					"description": "Flare's Avatar Tools",
+					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.4.0/jp.whiteflare.avatartools-1.4.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies": {
+						"com.vrchat.avatars": "^3.1.13"
+					},
+					"legacyFolders": {
+						"Assets\\whiteflare\\AnimEditUtility": "dfdccec0a7e8acf42af6439586e3fe30",
+						"Assets\\whiteflare\\AvatarCopyUtility": "3b97d7763e106a84085cabe264b91502",
+						"Assets\\whiteflare\\AvatarTexTool": "957ff4a0e9b0a2b4bb5cd5f99498272b",
+						"Assets\\whiteflare\\BakeKillerFinder": "7cc23d7c406df304daf95d4c7a0161c5",
+						"Assets\\whiteflare\\BoundsUnificator": "e202e341b570b8c4dab04b735bd3feb8",
+						"Assets\\whiteflare\\HierarchyHelper": "97e98175714db7e46b162eb0b12142f7"
+					},
+					"legacyFiles": {
+						"Assets\\whiteflare\\MiscTools\\Editor\\MeshPolyCounter.cs": "8f7ca49ca853c214db6ff6cff7958ac6"
+					}
+				},
+				"1.4.1": {
+					"name": "jp.whiteflare.avatartools",
+					"version": "1.4.1",
+					"displayName": "Flare's Avatar Tools",
+					"description": "Flare's Avatar Tools",
+					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.4.1/jp.whiteflare.avatartools-1.4.1.zip?",
+					"unity": "2019.1",
+					"vpmDependencies": {
+						"com.vrchat.avatars": "^3.1.13"
+					},
+					"legacyFolders": {
+						"Assets\\whiteflare\\AnimEditUtility": "dfdccec0a7e8acf42af6439586e3fe30",
+						"Assets\\whiteflare\\AvatarCopyUtility": "3b97d7763e106a84085cabe264b91502",
+						"Assets\\whiteflare\\AvatarTexTool": "957ff4a0e9b0a2b4bb5cd5f99498272b",
+						"Assets\\whiteflare\\BakeKillerFinder": "7cc23d7c406df304daf95d4c7a0161c5",
+						"Assets\\whiteflare\\BoundsUnificator": "e202e341b570b8c4dab04b735bd3feb8",
+						"Assets\\whiteflare\\HierarchyHelper": "97e98175714db7e46b162eb0b12142f7"
+					},
+					"legacyFiles": {
+						"Assets\\whiteflare\\MiscTools\\Editor\\MeshPolyCounter.cs": "8f7ca49ca853c214db6ff6cff7958ac6"
+					}
+				},
+				"1.4.2": {
+					"name": "jp.whiteflare.avatartools",
+					"version": "1.4.2",
+					"displayName": "Flare's Avatar Tools",
+					"description": "Flare's Avatar Tools",
+					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.4.2/jp.whiteflare.avatartools-1.4.2.zip?",
+					"unity": "2019.1",
+					"vpmDependencies": {
+						"com.vrchat.avatars": "^3.1.13"
+					},
+					"legacyFolders": {
+						"Assets\\whiteflare\\AnimEditUtility": "dfdccec0a7e8acf42af6439586e3fe30",
+						"Assets\\whiteflare\\AvatarCopyUtility": "3b97d7763e106a84085cabe264b91502",
+						"Assets\\whiteflare\\AvatarTexTool": "957ff4a0e9b0a2b4bb5cd5f99498272b",
+						"Assets\\whiteflare\\BakeKillerFinder": "7cc23d7c406df304daf95d4c7a0161c5",
+						"Assets\\whiteflare\\BoundsUnificator": "e202e341b570b8c4dab04b735bd3feb8",
+						"Assets\\whiteflare\\HierarchyHelper": "97e98175714db7e46b162eb0b12142f7"
+					},
+					"legacyFiles": {
+						"Assets\\whiteflare\\MiscTools\\Editor\\MeshPolyCounter.cs": "8f7ca49ca853c214db6ff6cff7958ac6"
+					}
+				},
+				"1.5.0": {
+					"name": "jp.whiteflare.avatartools",
+					"version": "1.5.0",
+					"displayName": "Flare's Avatar Tools",
+					"description": "Flare's Avatar Tools",
+					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.5.0/jp.whiteflare.avatartools-1.5.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies": {
+						"com.vrchat.avatars": "^3.1.13"
+					},
+					"legacyFolders": {
+						"Assets\\whiteflare\\AnimEditUtility": "dfdccec0a7e8acf42af6439586e3fe30",
+						"Assets\\whiteflare\\AvatarCopyUtility": "3b97d7763e106a84085cabe264b91502",
+						"Assets\\whiteflare\\AvatarTexTool": "957ff4a0e9b0a2b4bb5cd5f99498272b",
+						"Assets\\whiteflare\\BakeKillerFinder": "7cc23d7c406df304daf95d4c7a0161c5",
+						"Assets\\whiteflare\\BoundsUnificator": "e202e341b570b8c4dab04b735bd3feb8",
+						"Assets\\whiteflare\\HierarchyHelper": "97e98175714db7e46b162eb0b12142f7"
+					},
+					"legacyFiles": {
+						"Assets\\whiteflare\\MiscTools\\Editor\\MeshPolyCounter.cs": "8f7ca49ca853c214db6ff6cff7958ac6"
+					}
+				},
+				"1.6.0": {
+					"name": "jp.whiteflare.avatartools",
+					"version": "1.6.0",
+					"displayName": "Flare's Avatar Tools",
+					"description": "Flare's Avatar Tools",
+					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.6.0/jp.whiteflare.avatartools-1.6.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies": {
+						"com.vrchat.avatars": "^3.1.13"
+					},
+					"legacyFolders": {
+						"Assets\\whiteflare\\AnimEditUtility": "dfdccec0a7e8acf42af6439586e3fe30",
+						"Assets\\whiteflare\\AvatarCopyUtility": "3b97d7763e106a84085cabe264b91502",
+						"Assets\\whiteflare\\AvatarTexTool": "957ff4a0e9b0a2b4bb5cd5f99498272b",
+						"Assets\\whiteflare\\BakeKillerFinder": "7cc23d7c406df304daf95d4c7a0161c5",
+						"Assets\\whiteflare\\BoundsUnificator": "e202e341b570b8c4dab04b735bd3feb8",
+						"Assets\\whiteflare\\HierarchyHelper": "97e98175714db7e46b162eb0b12142f7"
+					},
+					"legacyFiles": {
+						"Assets\\whiteflare\\MiscTools\\Editor\\MeshPolyCounter.cs": "8f7ca49ca853c214db6ff6cff7958ac6"
+					}
+				},
+				"1.6.1": {
+					"name": "jp.whiteflare.avatartools",
+					"version": "1.6.1",
+					"displayName": "Flare's Avatar Tools",
+					"description": "Flare's Avatar Tools",
+					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.6.1/jp.whiteflare.avatartools-1.6.1.zip?",
+					"unity": "2019.1",
+					"vpmDependencies": {
+						"com.vrchat.avatars": "^3.1.13"
+					},
+					"legacyFolders": {
+						"Assets\\whiteflare\\AnimEditUtility": "dfdccec0a7e8acf42af6439586e3fe30",
+						"Assets\\whiteflare\\AvatarCopyUtility": "3b97d7763e106a84085cabe264b91502",
+						"Assets\\whiteflare\\AvatarTexTool": "957ff4a0e9b0a2b4bb5cd5f99498272b",
+						"Assets\\whiteflare\\BakeKillerFinder": "7cc23d7c406df304daf95d4c7a0161c5",
+						"Assets\\whiteflare\\BoundsUnificator": "e202e341b570b8c4dab04b735bd3feb8",
+						"Assets\\whiteflare\\HierarchyHelper": "97e98175714db7e46b162eb0b12142f7"
+					},
+					"legacyFiles": {
+						"Assets\\whiteflare\\MiscTools\\Editor\\MeshPolyCounter.cs": "8f7ca49ca853c214db6ff6cff7958ac6"
+					}
+				},
+				"1.7.0": {
+					"name": "jp.whiteflare.avatartools",
+					"version": "1.7.0",
+					"displayName": "Flare's Avatar Tools",
+					"description": "Flare's Avatar Tools",
+					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.7.0/jp.whiteflare.avatartools-1.7.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies": {
+						"com.vrchat.avatars": "^3.1.13"
+					},
+					"legacyFolders": {
+						"Assets\\whiteflare\\AnimEditUtility": "dfdccec0a7e8acf42af6439586e3fe30",
+						"Assets\\whiteflare\\AvatarCopyUtility": "3b97d7763e106a84085cabe264b91502",
+						"Assets\\whiteflare\\AvatarTexTool": "957ff4a0e9b0a2b4bb5cd5f99498272b",
+						"Assets\\whiteflare\\BakeKillerFinder": "7cc23d7c406df304daf95d4c7a0161c5",
+						"Assets\\whiteflare\\BoundsUnificator": "e202e341b570b8c4dab04b735bd3feb8",
+						"Assets\\whiteflare\\HierarchyHelper": "97e98175714db7e46b162eb0b12142f7"
+					},
+					"legacyFiles": {
+						"Assets\\whiteflare\\MiscTools\\Editor\\MeshPolyCounter.cs": "8f7ca49ca853c214db6ff6cff7958ac6"
+					}
+				},
+				"1.8.0": {
+					"name": "jp.whiteflare.avatartools",
+					"version": "1.8.0",
+					"displayName": "Flare's Avatar Tools",
+					"description": "Flare's Avatar Tools",
+					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.8.0/jp.whiteflare.avatartools-1.8.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies": {
+						"com.vrchat.avatars": "^3.1.13"
+					},
+					"legacyFolders": {
+						"Assets\\whiteflare\\AnimEditUtility": "dfdccec0a7e8acf42af6439586e3fe30",
+						"Assets\\whiteflare\\AvatarCopyUtility": "3b97d7763e106a84085cabe264b91502",
+						"Assets\\whiteflare\\AvatarTexTool": "957ff4a0e9b0a2b4bb5cd5f99498272b",
+						"Assets\\whiteflare\\BakeKillerFinder": "7cc23d7c406df304daf95d4c7a0161c5",
+						"Assets\\whiteflare\\BoundsUnificator": "e202e341b570b8c4dab04b735bd3feb8",
+						"Assets\\whiteflare\\HierarchyHelper": "97e98175714db7e46b162eb0b12142f7"
+					},
+					"legacyFiles": {
+						"Assets\\whiteflare\\MiscTools\\Editor\\MeshPolyCounter.cs": "8f7ca49ca853c214db6ff6cff7958ac6"
+					}
+				}
+			}
+		},
+		"jp.whiteflare.worldtools": {
+			"versions": {
+				"1.1.0": {
+					"name": "jp.whiteflare.worldtools",
+					"version": "1.1.0",
+					"displayName": "Flare's World Tools",
+					"description": "Flare's World Tools",
+					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.1.0/jp.whiteflare.worldtools-1.1.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies": {
+						"com.vrchat.clientsim": "^1.2.2"
+					},
+					"legacyFolders": {
+						"Assets\\whiteflare\\AnimEditUtility": "dfdccec0a7e8acf42af6439586e3fe30",
+						"Assets\\whiteflare\\AvatarTexTool": "957ff4a0e9b0a2b4bb5cd5f99498272b",
+						"Assets\\whiteflare\\BakeKillerFinder": "7cc23d7c406df304daf95d4c7a0161c5",
+						"Assets\\whiteflare\\BakedLightmapBaker": "a8ca26bfb305bef4eb55ba627bb4c945",
+						"Assets\\whiteflare\\HierarchyHelper": "97e98175714db7e46b162eb0b12142f7",
+						"Assets\\whiteflare\\LightProbeEditUtility": "d5be6e5b88f33914896e416ea00f1126",
+						"Assets\\whiteflare\\LightmapControlPanel": "7a36c2975c4440f4e8aec027e4f9d75f"
+					},
+					"legacyFiles": {
+						"Assets\\whiteflare\\MiscTools\\Editor\\MeshPolyCounter.cs": "8f7ca49ca853c214db6ff6cff7958ac6"
+					}
+				},
+				"1.2.0": {
+					"name": "jp.whiteflare.worldtools",
+					"version": "1.2.0",
+					"displayName": "Flare's World Tools",
+					"description": "Flare's World Tools",
+					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.2.0/jp.whiteflare.worldtools-1.2.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies": {
+						"com.vrchat.clientsim": "^1.2.2"
+					},
+					"legacyFolders": {
+						"Assets\\whiteflare\\AnimEditUtility": "dfdccec0a7e8acf42af6439586e3fe30",
+						"Assets\\whiteflare\\AvatarTexTool": "957ff4a0e9b0a2b4bb5cd5f99498272b",
+						"Assets\\whiteflare\\BakeKillerFinder": "7cc23d7c406df304daf95d4c7a0161c5",
+						"Assets\\whiteflare\\BakedLightmapBaker": "a8ca26bfb305bef4eb55ba627bb4c945",
+						"Assets\\whiteflare\\HierarchyHelper": "97e98175714db7e46b162eb0b12142f7",
+						"Assets\\whiteflare\\LightProbeEditUtility": "d5be6e5b88f33914896e416ea00f1126",
+						"Assets\\whiteflare\\LightmapControlPanel": "7a36c2975c4440f4e8aec027e4f9d75f"
+					},
+					"legacyFiles": {
+						"Assets\\whiteflare\\MiscTools\\Editor\\MeshPolyCounter.cs": "8f7ca49ca853c214db6ff6cff7958ac6"
+					}
+				},
+				"1.3.0": {
+					"name": "jp.whiteflare.worldtools",
+					"version": "1.3.0",
+					"displayName": "Flare's World Tools",
+					"description": "Flare's World Tools",
+					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.3.0/jp.whiteflare.worldtools-1.3.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies": {
+						"com.vrchat.clientsim": "^1.2.2"
+					},
+					"legacyFolders": {
+						"Assets\\whiteflare\\AnimEditUtility": "dfdccec0a7e8acf42af6439586e3fe30",
+						"Assets\\whiteflare\\AvatarTexTool": "957ff4a0e9b0a2b4bb5cd5f99498272b",
+						"Assets\\whiteflare\\BakeKillerFinder": "7cc23d7c406df304daf95d4c7a0161c5",
+						"Assets\\whiteflare\\BakedLightmapBaker": "a8ca26bfb305bef4eb55ba627bb4c945",
+						"Assets\\whiteflare\\HierarchyHelper": "97e98175714db7e46b162eb0b12142f7",
+						"Assets\\whiteflare\\LightProbeEditUtility": "d5be6e5b88f33914896e416ea00f1126",
+						"Assets\\whiteflare\\LightmapControlPanel": "7a36c2975c4440f4e8aec027e4f9d75f"
+					},
+					"legacyFiles": {
+						"Assets\\whiteflare\\MiscTools\\Editor\\MeshPolyCounter.cs": "8f7ca49ca853c214db6ff6cff7958ac6"
+					}
+				},
+				"1.4.0": {
+					"name": "jp.whiteflare.worldtools",
+					"version": "1.4.0",
+					"displayName": "Flare's World Tools",
+					"description": "Flare's World Tools",
+					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.4.0/jp.whiteflare.worldtools-1.4.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies": {
+						"com.vrchat.worlds": "^3.1.13"
+					},
+					"legacyFolders": {
+						"Assets\\whiteflare\\AnimEditUtility": "dfdccec0a7e8acf42af6439586e3fe30",
+						"Assets\\whiteflare\\AvatarTexTool": "957ff4a0e9b0a2b4bb5cd5f99498272b",
+						"Assets\\whiteflare\\BakeKillerFinder": "7cc23d7c406df304daf95d4c7a0161c5",
+						"Assets\\whiteflare\\BakedLightmapBaker": "a8ca26bfb305bef4eb55ba627bb4c945",
+						"Assets\\whiteflare\\HierarchyHelper": "97e98175714db7e46b162eb0b12142f7",
+						"Assets\\whiteflare\\LightProbeEditUtility": "d5be6e5b88f33914896e416ea00f1126",
+						"Assets\\whiteflare\\LightmapControlPanel": "7a36c2975c4440f4e8aec027e4f9d75f"
+					},
+					"legacyFiles": {
+						"Assets\\whiteflare\\MiscTools\\Editor\\MeshPolyCounter.cs": "8f7ca49ca853c214db6ff6cff7958ac6"
+					}
+				},
+				"1.4.1": {
+					"name": "jp.whiteflare.worldtools",
+					"version": "1.4.1",
+					"displayName": "Flare's World Tools",
+					"description": "Flare's World Tools",
+					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.4.1/jp.whiteflare.worldtools-1.4.1.zip?",
+					"unity": "2019.1",
+					"vpmDependencies": {
+						"com.vrchat.worlds": "^3.1.13"
+					},
+					"legacyFolders": {
+						"Assets\\whiteflare\\AnimEditUtility": "dfdccec0a7e8acf42af6439586e3fe30",
+						"Assets\\whiteflare\\AvatarTexTool": "957ff4a0e9b0a2b4bb5cd5f99498272b",
+						"Assets\\whiteflare\\BakeKillerFinder": "7cc23d7c406df304daf95d4c7a0161c5",
+						"Assets\\whiteflare\\BakedLightmapBaker": "a8ca26bfb305bef4eb55ba627bb4c945",
+						"Assets\\whiteflare\\HierarchyHelper": "97e98175714db7e46b162eb0b12142f7",
+						"Assets\\whiteflare\\LightProbeEditUtility": "d5be6e5b88f33914896e416ea00f1126",
+						"Assets\\whiteflare\\LightmapControlPanel": "7a36c2975c4440f4e8aec027e4f9d75f"
+					},
+					"legacyFiles": {
+						"Assets\\whiteflare\\MiscTools\\Editor\\MeshPolyCounter.cs": "8f7ca49ca853c214db6ff6cff7958ac6"
+					}
+				},
+				"1.4.2": {
+					"name": "jp.whiteflare.worldtools",
+					"version": "1.4.2",
+					"displayName": "Flare's World Tools",
+					"description": "Flare's World Tools",
+					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.4.2/jp.whiteflare.worldtools-1.4.2.zip?",
+					"unity": "2019.1",
+					"vpmDependencies": {
+						"com.vrchat.worlds": "^3.1.13"
+					},
+					"legacyFolders": {
+						"Assets\\whiteflare\\AnimEditUtility": "dfdccec0a7e8acf42af6439586e3fe30",
+						"Assets\\whiteflare\\AvatarTexTool": "957ff4a0e9b0a2b4bb5cd5f99498272b",
+						"Assets\\whiteflare\\BakeKillerFinder": "7cc23d7c406df304daf95d4c7a0161c5",
+						"Assets\\whiteflare\\BakedLightmapBaker": "a8ca26bfb305bef4eb55ba627bb4c945",
+						"Assets\\whiteflare\\HierarchyHelper": "97e98175714db7e46b162eb0b12142f7",
+						"Assets\\whiteflare\\LightProbeEditUtility": "d5be6e5b88f33914896e416ea00f1126",
+						"Assets\\whiteflare\\LightmapControlPanel": "7a36c2975c4440f4e8aec027e4f9d75f"
+					},
+					"legacyFiles": {
+						"Assets\\whiteflare\\MiscTools\\Editor\\MeshPolyCounter.cs": "8f7ca49ca853c214db6ff6cff7958ac6"
+					}
+				},
+				"1.5.0": {
+					"name": "jp.whiteflare.worldtools",
+					"version": "1.5.0",
+					"displayName": "Flare's World Tools",
+					"description": "Flare's World Tools",
+					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.5.0/jp.whiteflare.worldtools-1.5.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies": {
+						"com.vrchat.worlds": "^3.1.13"
+					},
+					"legacyFolders": {
+						"Assets\\whiteflare\\AnimEditUtility": "dfdccec0a7e8acf42af6439586e3fe30",
+						"Assets\\whiteflare\\AvatarTexTool": "957ff4a0e9b0a2b4bb5cd5f99498272b",
+						"Assets\\whiteflare\\BakeKillerFinder": "7cc23d7c406df304daf95d4c7a0161c5",
+						"Assets\\whiteflare\\BakedLightmapBaker": "a8ca26bfb305bef4eb55ba627bb4c945",
+						"Assets\\whiteflare\\HierarchyHelper": "97e98175714db7e46b162eb0b12142f7",
+						"Assets\\whiteflare\\LightProbeEditUtility": "d5be6e5b88f33914896e416ea00f1126",
+						"Assets\\whiteflare\\LightmapControlPanel": "7a36c2975c4440f4e8aec027e4f9d75f"
+					},
+					"legacyFiles": {
+						"Assets\\whiteflare\\MiscTools\\Editor\\MeshPolyCounter.cs": "8f7ca49ca853c214db6ff6cff7958ac6"
+					}
+				},
+				"1.6.0": {
+					"name": "jp.whiteflare.worldtools",
+					"version": "1.6.0",
+					"displayName": "Flare's World Tools",
+					"description": "Flare's World Tools",
+					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.6.0/jp.whiteflare.worldtools-1.6.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies": {
+						"com.vrchat.worlds": "^3.1.13"
+					},
+					"legacyFolders": {
+						"Assets\\whiteflare\\AnimEditUtility": "dfdccec0a7e8acf42af6439586e3fe30",
+						"Assets\\whiteflare\\AvatarTexTool": "957ff4a0e9b0a2b4bb5cd5f99498272b",
+						"Assets\\whiteflare\\BakeKillerFinder": "7cc23d7c406df304daf95d4c7a0161c5",
+						"Assets\\whiteflare\\BakedLightmapBaker": "a8ca26bfb305bef4eb55ba627bb4c945",
+						"Assets\\whiteflare\\HierarchyHelper": "97e98175714db7e46b162eb0b12142f7",
+						"Assets\\whiteflare\\LightProbeEditUtility": "d5be6e5b88f33914896e416ea00f1126",
+						"Assets\\whiteflare\\LightmapControlPanel": "7a36c2975c4440f4e8aec027e4f9d75f"
+					},
+					"legacyFiles": {
+						"Assets\\whiteflare\\MiscTools\\Editor\\MeshPolyCounter.cs": "8f7ca49ca853c214db6ff6cff7958ac6"
+					}
+				},
+				"1.6.1": {
+					"name": "jp.whiteflare.worldtools",
+					"version": "1.6.1",
+					"displayName": "Flare's World Tools",
+					"description": "Flare's World Tools",
+					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.6.1/jp.whiteflare.worldtools-1.6.1.zip?",
+					"unity": "2019.1",
+					"vpmDependencies": {
+						"com.vrchat.worlds": "^3.1.13"
+					},
+					"legacyFolders": {
+						"Assets\\whiteflare\\AnimEditUtility": "dfdccec0a7e8acf42af6439586e3fe30",
+						"Assets\\whiteflare\\AvatarTexTool": "957ff4a0e9b0a2b4bb5cd5f99498272b",
+						"Assets\\whiteflare\\BakeKillerFinder": "7cc23d7c406df304daf95d4c7a0161c5",
+						"Assets\\whiteflare\\BakedLightmapBaker": "a8ca26bfb305bef4eb55ba627bb4c945",
+						"Assets\\whiteflare\\HierarchyHelper": "97e98175714db7e46b162eb0b12142f7",
+						"Assets\\whiteflare\\LightProbeEditUtility": "d5be6e5b88f33914896e416ea00f1126",
+						"Assets\\whiteflare\\LightmapControlPanel": "7a36c2975c4440f4e8aec027e4f9d75f"
+					},
+					"legacyFiles": {
+						"Assets\\whiteflare\\MiscTools\\Editor\\MeshPolyCounter.cs": "8f7ca49ca853c214db6ff6cff7958ac6"
+					}
+				},
+				"1.7.0": {
+					"name": "jp.whiteflare.worldtools",
+					"version": "1.7.0",
+					"displayName": "Flare's World Tools",
+					"description": "Flare's World Tools",
+					"url": "https://github.com/whiteflare/vpm-repos/releases/download/REL_TOOL_1.7.0/jp.whiteflare.worldtools-1.7.0.zip?",
+					"unity": "2019.1",
+					"vpmDependencies": {
+						"com.vrchat.worlds": "^3.1.13"
+					},
+					"legacyFolders": {
+						"Assets\\whiteflare\\AnimEditUtility": "dfdccec0a7e8acf42af6439586e3fe30",
+						"Assets\\whiteflare\\AvatarTexTool": "957ff4a0e9b0a2b4bb5cd5f99498272b",
+						"Assets\\whiteflare\\BakeKillerFinder": "7cc23d7c406df304daf95d4c7a0161c5",
+						"Assets\\whiteflare\\BakedLightmapBaker": "a8ca26bfb305bef4eb55ba627bb4c945",
+						"Assets\\whiteflare\\HierarchyHelper": "97e98175714db7e46b162eb0b12142f7",
+						"Assets\\whiteflare\\LightProbeEditUtility": "d5be6e5b88f33914896e416ea00f1126",
+						"Assets\\whiteflare\\LightmapControlPanel": "7a36c2975c4440f4e8aec027e4f9d75f"
+					},
+					"legacyFiles": {
+						"Assets\\whiteflare\\MiscTools\\Editor\\MeshPolyCounter.cs": "8f7ca49ca853c214db6ff6cff7958ac6"
+					}
+				}
+			}
+		}
+	}
+}
