@@ -1,7 +1,11 @@
 # UnlitWF/UnToon Manual
 
+UnlitWF/UnToon は、Unlit に様々な描画効果を追加する発想で設計された Unity/VRChat 想定の Toon Shader です。
 このページでは UnlitWF/UnToon の設定について解説します。
 内容は最新のリリースに基づいて記載しますが、必ずしも最新の状態を反映しているわけではなく細部に違いがある場合もあります。ご了承ください。
+
+![image](./img/untoon-01.png)
+アバターやワールドにUnlitWF/UnToonを使用してみたサンプルイメージです。Skybox以外は全てUnlitWFで描画しています。
 
 ## General
 

@@ -33,13 +33,8 @@ const sidebars = {
         {
           type: 'category',
           label: 'UnlitWF/UnToon',
-          link: {type: 'doc', id: 'unlitwf/UnToon-Overview'},
+          link: {type: 'doc', id: 'unlitwf/UnToon-Manual'},
           items: [
-            {
-              type: 'doc',
-              id: 'unlitwf/UnToon-Manual',
-              label: 'マニュアル',
-            },
             {
               type: 'doc',
               id: 'unlitwf/UnToon-Tips',
