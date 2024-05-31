@@ -1,7 +1,7 @@
 # UnlitWF/Water Manual
 
 UnlitWF/Water は、水面を描画するシェーダと付属の特殊効果を描画するシェーダで構成される、水シェーダのアセットです。
-このページでは WF_Water の設定方法について説明します。
+このページでは UnlitWF/Water の設定方法について説明します。
 
 ![Image](./img/water-01.jpg)
 
@@ -15,9 +15,10 @@ UnlitWF/Water は、水面を描画するシェーダと付属の特殊効果を
 ## UnlitWF/Water の特徴
 
 - 軽量
-- CameraDepthTexture は使用しません。シーン側ライティング設定に関わらず動作します。
-- ライトマップ経由でベイクされた影を受け取ることができます。
 - VRC Quest でも動作します。
+- ワールドライティングにはあまり影響されずに描画されるUnlit的な挙動です。
+- ライトマップ経由でベイクされた影を受け取ることができます。
+- 基本的に CameraDepthTexture は使用しません。CameraDepthTexture を使用する場合はヘルプボックスでお知らせします。
 
 ## シェーダの全体構成について
 
@@ -31,6 +32,26 @@ WF_Water では、複数のシェーダとマテリアルの組み合わせで�
   - WF_Water_Caustics (Addition)
 - 深度の描画
   - WF_Water_DepthFog (Fade)
+
+
+## General
+
+### カスタムインスペクタの日本語化 {#l10n}
+
+インスペクタの最下部に `Editor language` の設定があります。『日本語』にすると設定項目名が日本語化されます。
+これはUnityEditorで共通の設定のため、どこかひとつのマテリアルで設定されると他マテリアルでも設定が引き継がれます。
+
+![Image](./img/untoon-man-01.png)
+
+### バリアントの切り替え {#Variants}
+
+インスペクタ最上段に、現在使用しているシェーダの説明が表示されます。
+
+![Image](./img/untoon-man-02.png)
+
+- `Family` からシェーダの系列を切り替えることができます。`UnToon`, `FakeFur`, `Gem`, `Grass`, `Water` などに切り替えることができます。
+- `Variant` からシェーダのタイプを切り替えることができます。Outline や Mobile などに切り替えることができます。
+- `RenderType` から描画モードを切り替えることができます。Opaque や Transparent などに切り替えることができます。
 
 ## 水面の描画
 

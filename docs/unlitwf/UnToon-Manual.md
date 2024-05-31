@@ -1,6 +1,6 @@
 # UnlitWF/UnToon Manual
 
-ここでは UnlitWF/UnToon の設定について解説します。
+このページでは UnlitWF/UnToon の設定について解説します。
 内容は最新のリリースに基づいて記載しますが、必ずしも最新の状態を反映しているわけではなく細部に違いがある場合もあります。ご了承ください。
 
 ## General
@@ -21,6 +21,7 @@
 - `Family` からシェーダの系列を切り替えることができます。`UnToon`, `FakeFur`, `Gem`, `Grass`, `Water` などに切り替えることができます。
 - `Variant` からシェーダのタイプを切り替えることができます。Outline や Mobile などに切り替えることができます。
 - `RenderType` から描画モードを切り替えることができます。Opaque や Transparent などに切り替えることができます。
+
 
 ## Base 基本設定 {#Base}
 

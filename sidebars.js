@@ -49,6 +49,11 @@ const sidebars = {
         },
         {
           type: 'doc',
+          id: 'unlitwf/FakeFur-Manual',
+          label: 'UnlitWF/FakeFur',
+        },
+        {
+          type: 'doc',
           id: 'unlitwf/Water-Manual',
           label: 'UnlitWF/Water',
         },
