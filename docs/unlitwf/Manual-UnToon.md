@@ -1,4 +1,4 @@
-# UnlitWF/UnToon Manual
+# UnlitWF/UnToon
 
 UnlitWF/UnToon は、Unlit に様々な描画効果を追加する発想で設計された Unity/VRChat 想定の Toon Shader です。
 このページでは UnlitWF/UnToon の設定について解説します。
@@ -7,34 +7,19 @@ UnlitWF/UnToon は、Unlit に様々な描画効果を追加する発想で設�
 ![image](./img/untoon-01.png)
 アバターやワールドにUnlitWF/UnToonを使用してみたサンプルイメージです。Skybox以外は全てUnlitWFで描画しています。
 
-## General
 
-### カスタムインスペクタの日本語化 {#l10n}
+----
 
-インスペクタの最下部に `Editor language` の設定があります。『日本語』にすると設定項目名が日本語化されます。
-これはUnityEditorで共通の設定のため、どこかひとつのマテリアルで設定されると他マテリアルでも設定が引き継がれます。
+## 設定項目の説明
 
-![Image](./img/untoon-man-01.png)
-
-### バリアントの切り替え {#Variants}
-
-インスペクタ最上段に、現在使用しているシェーダの説明が表示されます。
-
-![Image](./img/untoon-man-02.png)
-
-- `Family` からシェーダの系列を切り替えることができます。`UnToon`, `FakeFur`, `Gem`, `Grass`, `Water` などに切り替えることができます。
-- `Variant` からシェーダのタイプを切り替えることができます。Outline や Mobile などに切り替えることができます。
-- `RenderType` から描画モードを切り替えることができます。Opaque や Transparent などに切り替えることができます。
-
-
-## Base 基本設定 {#Base}
+### Base 基本設定 {#Base}
 
 インスペクタ最上段に `メインテクスチャ` `マテリアルカラー` の設定項目があります。
 Culling を操作できるバリアントでは `カリングモード` も現れます。`カリングモード` のないバリアントは常に Cull OFF で描画されます。
 
 ![Image](./img/untoon-man-03.png)
 
-## Transparent Alpha 透過 {#TransparentAlpha}
+### Transparent Alpha 透過 {#TransparentAlpha}
 
 透過についての設定です。
 
@@ -44,11 +29,11 @@ Culling を操作できるバリアントでは `カリングモード` も現�
   - MAIN_TEX_ALPHA は `Main Texture` および `Color` のAlpha値で透過します。
   - MASK_TEX_RED は `アルファマスク` のRチャンネルを参照します。
   - MASK_TEX_ALPHA は `アルファマスク` のAチャネルを参照します。
-- `アルファ強度` は、透過具合の調整用です。0で透明、値が大きくなるほど不透明に近くなります。
+- `アルファ強度` は、透過具合の調整用です。0で透明、値が大きくなるほど不透明に近くなります。<br />Min-Maxスライダーを用いて、透過具合の上限値と下限値をそれぞれ調整できます。
 - `フレネル強度` は、浅い角度で面をみたときの透過具合を調整します。0では調整なし、値が大きくなるほど浅い角度で不透明に近くなります。
 - `ZWrite` は、描画時の深度バッファへの書き込みを制御します。`OFF` では書き込みなし、`ON` では書き込みありです。<br />半透明を2パスで描画するシェーダでは `TwoSided` の選択肢も現れます。この場合 `ON` は表面のみ書き込みあり、`TwoSided` は表面・裏面ともに書き込みありです。
 
-## Outline アウトライン {#Outline}
+### Outline アウトライン {#Outline}
 
 アウトラインについての設定です。
 
@@ -60,13 +45,13 @@ Culling を操作できるバリアントでは `カリングモード` も現�
 - アウトラインの色を `線色テクスチャ` から指定することもできます(UVはMainTextureと同じ)。ブレンド強度は `線色テクスチャとブレンド` にて調整してください。
 - `カメラから遠ざける` を調整することで、アウトラインのメッシュを近づけたり遠ざけたりすることができます。
 
-## BackFace Texture 裏面テクスチャ {#BackFaceTexture}
+### BackFace Texture 裏面テクスチャ {#BackFaceTexture}
 
 裏面に MainTex とは異なる色・テクスチャを使用する時に設定します。
 
 ![Image](./img/untoon-man-06.png)
 
-## Gradient Map グラデーションマップ {#GradientMap}
+### Gradient Map グラデーションマップ {#GradientMap}
 
 グラデーションマップ用テクスチャをもとに、色をカスタマイズします。
 
@@ -77,7 +62,7 @@ Culling を操作できるバリアントでは `カリングモード` も現�
   - グラデーションを編集し `プレビュー` ボタンを押すと、編集内容が一時的に反映されます。この反映は一時的なものなのでマテリアルには保存されずクリアされます。
   - `保存` ボタンを押すとグラデーションマップ用テクスチャを保存することができます。
 
-## Color Change 色変更 {#ColorChange}
+### Color Change 色変更 {#ColorChange}
 
 HSVスライダーをもとに、色をカスタマイズします。
 
@@ -87,16 +72,18 @@ HSVスライダーをもとに、色をカスタマイズします。
 - `ガンマ` を操作するとガンマ補正が掛かります。値が大きくなるほど暗くなり、小さくなるほど明るくなります。
 - `単色化` にチェックを入れると、上記の色調整を行う前に色相を赤に揃えるフィルタが追加されます。
 
-## Normal Map ノーマルマップ {#NormalMap}
+### Normal Map ノーマルマップ {#NormalMap}
 
 ノーマルマップについての設定です。ここではメッシュ全体の凹凸を制御します。
 
 ![Image](./img/untoon-man-10.png)
 
 - `影の濃さ` ではノーマルマップによる陰影の濃さを設定できます。0 は影が付きませんが、0 であっても凹凸の情報は Metallic, Matcap, ToonShade 等に伝達され描画されます。
+- `凹凸スケール` は `-1` から `2` まで調整することができます。
 - `ミラーXY反転` ではUVが反転している箇所 (ミラーモディファイアを使用した箇所など) にて NormalMap を反転させるオプションです。
+- `DirectXのノーマルマップを使用` をチェックすると、通常UnityのノーマルマップはOpenGL形式のところ、DirectXのノーマルマップを使用するよう変換処理が行われます。
 
-## Detail Normal Map ディテールノーマルマップ {#DetailNormalMap}
+### Detail Normal Map ディテールノーマルマップ {#DetailNormalMap}
 
 追加のノーマルマップを利用するときの設定です。Normal Map よりも細かい範囲の、メッシュ表面の微細な凹凸を制御します。
 DetailNormalMap は NormalMap とは異なり、陰影を直接描く機能はありません。凹凸情報は Metallic, Matcap, ToonShade 等に伝達され描画されます。
@@ -106,7 +93,7 @@ DetailNormalMap は NormalMap とは異なり、陰影を直接描く機能は�
 - `ミラーXY反転` ではUVが反転している箇所 (ミラーモディファイアを使用した箇所など) にて NormalMap を反転させるオプションです。この設定は NormalMap 側と連動しています。
 - 2ndノーマルマップは効果範囲をマスクテクスチャで指定することができます。`2ndノーマルのマスク` にマスクを設定してください。
 
-## Metallic メタリック {#Metallic}
+### Metallic メタリック {#Metallic}
 
 金属表現についての設定です。Reflection と Specular の設定ができます。
 
@@ -122,7 +109,7 @@ DetailNormalMap は NormalMap とは異なり、陰影を直接描く機能は�
   - ONLY_SECOND_MAP では、環境マップは使用せず `キューブマップ` のみを使用します。
 - `モノクロ反射` を 0 にすると、環境マップ/キューブマップの明度のみ反映し、色彩は Albedo をそのまま用います。1 にすると環境マップ/キューブマップの色彩をブレンドした色が反射光となります。
 
-## Light Matcap マットキャップ {#LightMatcap}
+### Light Matcap マットキャップ {#LightMatcap}
 
 Matcapについての設定です。UnToon では最大2枚のMatcapを使用できます。また Variant を PowerCap にすると最大8枚のMatcapを使用できます。
 
@@ -136,7 +123,7 @@ Matcapについての設定です。UnToon では最大2枚のMatcapを使用で
 - `matcap色調整` では、matcapサンプラの色調を調整できます。
 - `視差(Parallax)` は matcap の視差について調整できます。1 にすると右目左目で光沢の位置が変化します。0 にすると右目左目で位置が変化しません。<br />金属光沢を matcap で表現する時は大きめの値に、影を matcap で表現する時は小さめの値にすることがおすすめです。シングルパスステレオではない場合は無効です。
 
-## Lame ラメ {#Lame}
+### Lame ラメ {#Lame}
 
 表面にラメ(Lamé, 金属粉)を追加します。
 
@@ -149,7 +136,7 @@ Matcapについての設定です。UnToon では最大2枚のMatcapを使用で
 - `スポットフェード強度` は、ラメの見える範囲を指定します。強くするとカメラに対して正面を向いたラメのみが見えるようになります。
 - `アニメ速度` は、ラメの明滅速度を指定します。値が大きいほど周期が短くなります。値が `0` のとき、明滅せず常に可視になります。
 
-## ToonShade トゥーン影 {#ToonShade}
+### ToonShade トゥーン影 {#ToonShade}
 
 階調影についての設定です。
 
@@ -166,7 +153,7 @@ Matcapについての設定です。UnToon では最大2枚のMatcapを使用で
 ToonShade の詳細を ToonShade Advance から設定できます。
 1影2影の位置、および境界ぼかし強度を調整可能です。
 
-## RimLight リムライト {#RimLight}
+### RimLight リムライト {#RimLight}
 
 リムライトの設定です。
 
@@ -178,7 +165,7 @@ ToonShade の詳細を ToonShade Advance から設定できます。
 
 ![Image](./img/untoon-man-18.png)
 
-## RimShadow リムシャドウ {#RimShadow}
+### RimShadow リムシャドウ {#RimShadow}
 
 リムシャドウの設定です。加算合成を行うリムライトに対して、乗算合成を行うものがリムシャドウです。
 
@@ -189,7 +176,7 @@ ToonShade の詳細を ToonShade Advance から設定できます。
 
 ![Image](./img/untoon-man-35.png)
 
-## Overlay Texture オーバーレイテクスチャ {#OverlayTexture}
+### Overlay Texture オーバーレイテクスチャ {#OverlayTexture}
 
 質感を微調整するテクスチャを設定することができます。Detail Albedo やデカールテクスチャなどの詳細マップはここで設定してください。
 
@@ -212,7 +199,7 @@ ToonShade の詳細を ToonShade Advance から設定できます。
   - HARD_LIGHT: ハードライト合成 `lerp(2 * base.rgb * decal.rgb, 1 - 2 * (1 - base.rgb) * (1 - decal.rgb), step(calcBrightness(decal.rgb), 0.5))`
 - `UV外の扱い` ではオーバーレイテクスチャのタイリングについて指定できます。`REPEAT` は繰り返し、`CLIP` はUV外を描画しません。<br />デカールなどのワンポイントとするテクスチャは CLIP とすると便利です。
 
-## Distance Fade 距離フェード {#DistanceFade}
+### Distance Fade 距離フェード {#DistanceFade}
 
 メッシュにカメラを近づけたときの塗りつぶし色を指定します。
 
@@ -220,7 +207,7 @@ ToonShade の詳細を ToonShade Advance から設定できます。
 
 - `フェード距離` にて発動する距離を指定します。フェード距離以下にカメラが近づくと強度max、フェード距離以上にカメラが離れると強度がゼロになります。
 
-## Ambient Occlusion AOマップとライトマップ {#AmbientOcclusion}
+### Ambient Occlusion AOマップとライトマップ {#AmbientOcclusion}
 
 Occlusion Map と Lightmap の設定です。
 
@@ -230,7 +217,7 @@ Occlusion Map と Lightmap の設定です。
 - Lightmap static を付与したメッシュであればライトマップを読み取ることができます。`ライトマップも使用する` にチェックを入れてください。
 - オクルージョンマップやライトマップの合成にて `明るさ` と `コントラスト` を調整できます。
 
-## Emission エミッション {#Emission}
+### Emission エミッション {#Emission}
 
 エミッションの設定です。
 
@@ -253,7 +240,7 @@ Emission を AudioLink と連動させるときは `AudioLink を使用する` �
 チェックを入れた場合、AudioLink が有効なワールドでは EmissiveScroll を上書きして Emissive AudioLink が使用されます。
 AudioLink が無効なワールドでは Emission および EmissiveScroll が使用されます。もし AudioLink が無効時には Emission 自体を無効にしたい場合は `AudioLink無効時は光らせない` をチェックしてください。
 
-## Fog フォグ {#Fog}
+### Fog フォグ {#Fog}
 
 メッシュ原点から離れた場所に、指定された色をブレンドします。
 
@@ -268,7 +255,7 @@ AudioLink が無効なワールドでは Emission および EmissiveScroll が�
 - メッシュ原点の位置を `フォグ原点の位置(オフセット)` にて微調整できます。
 - フォグ効果範囲の微調整 (縦長にしたい等) には `フォグ範囲のスケール` を調整してください。(1, 1, 1) では等倍で、0.5にするとその座標軸のみフェードアウト距離の数値が半分に(より原点に近い場所からフォグが始まる)ようになります。
 
-## Dissolve ディゾルブ {#Dissolve}
+### Dissolve ディゾルブ {#Dissolve}
 
 メッシュ出現・消去時の特殊効果を設定できます。
 
@@ -283,7 +270,7 @@ AudioLink が無効なワールドでは Emission および EmissiveScroll が�
   - ディゾルブを 1→0 に変更してメッシュを消去させる場合、白が最初に消える場所、黒が最後に消える場所です。
 - `反転` をチェックすると、制御テクスチャの白黒が反転されます。「反転ONかつディゾルブ1→0」のアニメを作ると、最初に出現した場所が最初に消去されるようになります。
 
-## Lit ライト設定 {#Lit}
+### Lit ライト設定 {#Lit}
 
 ライトに対する反応の設定です。
 
@@ -297,7 +284,7 @@ AudioLink が無効なワールドでは Emission および EmissiveScroll が�
 UnToonのライト応答特性は、次のようにクランプ付き１次関数となっています。`Unlit Intensity` と `Saturate Intensity` は以下のようになります。
 ![Image](./img/untoon-man-30.png)
 
-## Lit Advance ライト設定(拡張) {#LitAdvance}
+### Lit Advance ライト設定(拡張) {#LitAdvance}
 
 ライティングに関する追加の設定です。通常は変更する必要はありません。
 
@@ -315,7 +302,7 @@ UnToonのライト応答特性は、次のようにクランプ付き１次関�
 - `メッシュ原点を取得しない` にチェックすると、一部の処理でメッシュ原点を取得しないようになります。
   - Batching Static を付与したメッシュ(バッチ処理にて原点位置が変わってしまう)である場合にはチェック推奨です。
 
-## Light Bake Effects ライトベイク調整 {#LightBakeEffects}
+### Light Bake Effects ライトベイク調整 {#LightBakeEffects}
 
 ライトベイク時のライトマッパーからの見え方を調整します。ライトベイク以外には影響を与えません。
 
@@ -325,7 +312,7 @@ UnToonのライト応答特性は、次のようにクランプ付き１次関�
 - `Emissionの倍率` は、0 にするとEmissionが黒色になります。発光が明るすぎる・暗すぎる場合に調整します。
 - `間接光の彩度` では、0 にすると間接光が灰色になります。間接光の色が強い場合などに調整します。
 
-## Tessellation 細分化 {#Tessellation}
+### Tessellation 細分化 {#Tessellation}
 
 UnToonのTessellationシリーズでは、テッセレーションを用いたメッシュの細分化・スムージングを行うことができます。
 細分化はカメラとメッシュの距離に応じて行われ、遠距離では無効化され最大パフォーマンスとなり、近距離では最大化されて最大クオリティとなります。
@@ -336,7 +323,7 @@ UnToonのTessellationシリーズでは、テッセレーションを用いた�
 - `スムーズ` ではスムージング強度を制御できます。0 ではスムージングが行われません。デフォルトは 1 で、通常は変更する必要はありません。
 - `スムーズマスク` には、スムージングする範囲を白、しない範囲を黒で指定したマスクテクスチャを設定します。部分的にスムージング強度を変更することで、例えばハードエッジなパーツをスムージング対象から外したり、肌が衣服を突き抜けることを防止することができます。
 
-## Stencil ステンシル {#Stencil}
+### Stencil ステンシル {#Stencil}
 
 UnToonでは簡易なステンシル制御として、Mask で描画した範囲に MaskOut が描画しないよう制御することができます。
 例えば「瞳」に Mask を指定し、「前髪」に MaskOut を指定して、瞳が常に前面に描画されるようにすることができます。

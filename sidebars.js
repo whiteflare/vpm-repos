@@ -32,25 +32,41 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: 'UnlitWF/UnToon',
-          link: {type: 'doc', id: 'unlitwf/UnToon-Manual'},
+          label: 'シェーダ説明書',
           items: [
             {
               type: 'doc',
-              id: 'unlitwf/UnToon-Tips',
-              label: 'Tips',
+              id: 'unlitwf/Manual-Common',
+              label: '共通事項',
             },
-          ],
-        },
-        {
-          type: 'doc',
-          id: 'unlitwf/FakeFur-Manual',
-          label: 'UnlitWF/FakeFur',
-        },
-        {
-          type: 'doc',
-          id: 'unlitwf/Water-Manual',
-          label: 'UnlitWF/Water',
+            {
+              type: 'category',
+              label: 'UnToon',
+              link: {type: 'doc', id: 'unlitwf/Manual-UnToon'},
+              items: [
+                {
+                  type: 'doc',
+                  id: 'unlitwf/UnToon-Tips',
+                  label: 'Tips',
+                },
+              ],
+            },
+            {
+              type: 'doc',
+              id: 'unlitwf/Manual-FakeFur',
+              label: 'FakeFur',
+            },
+            {
+              type: 'doc',
+              id: 'unlitwf/Manual-Gem',
+              label: 'Gem',
+            },
+            {
+              type: 'doc',
+              id: 'unlitwf/Manual-Water',
+              label: 'Water',
+            },
+          ]
         },
         {
           type: 'doc',

@@ -1,16 +1,16 @@
-# UnlitWF/Water Manual
+# UnlitWF/Water
 
 UnlitWF/Water は、水面を描画するシェーダと付属の特殊効果を描画するシェーダで構成される、水シェーダのアセットです。
 このページでは UnlitWF/Water の設定方法について説明します。
 
-![Image](./img/water-01.jpg)
+![Image](./img/water-man-01.jpg)
 
 ## サンプルマテリアル
 
-設定済みマテリアルが Example の unitypackage 内 `Unlit_WF_ShaderSuite/Examples/Water/Presets/Materials` に収録されています。
+設定済みマテリアルが `/Examples/Water/Presets/Materials` に収録されています。
 複製してご利用ください。
 
-![Image](./img/water-02.png)
+![Image](./img/water-man-02.png)
 
 ## UnlitWF/Water の特徴
 
@@ -24,7 +24,7 @@ UnlitWF/Water は、水面を描画するシェーダと付属の特殊効果を
 
 WF_Water では、複数のシェーダとマテリアルの組み合わせで、水を描画します。
 
-![Image](./img/water-03.png)
+![Image](./img/water-man-03.png)
 
 - 水面の描画
   - WF_Water_Surface (Opaque, Transparent, Transparent_Refracted)
@@ -33,37 +33,19 @@ WF_Water では、複数のシェーダとマテリアルの組み合わせで�
 - 深度の描画
   - WF_Water_DepthFog (Fade)
 
-
-## General
-
-### カスタムインスペクタの日本語化 {#l10n}
-
-インスペクタの最下部に `Editor language` の設定があります。『日本語』にすると設定項目名が日本語化されます。
-これはUnityEditorで共通の設定のため、どこかひとつのマテリアルで設定されると他マテリアルでも設定が引き継がれます。
-
-![Image](./img/untoon-man-01.png)
-
-### バリアントの切り替え {#Variants}
-
-インスペクタ最上段に、現在使用しているシェーダの説明が表示されます。
-
-![Image](./img/untoon-man-02.png)
-
-- `Family` からシェーダの系列を切り替えることができます。`UnToon`, `FakeFur`, `Gem`, `Grass`, `Water` などに切り替えることができます。
-- `Variant` からシェーダのタイプを切り替えることができます。Outline や Mobile などに切り替えることができます。
-- `RenderType` から描画モードを切り替えることができます。Opaque や Transparent などに切り替えることができます。
+----
 
 ## 水面の描画
 
 WF_Water_Surface シェーダが水面を描画します。
 
-![Image](./img/water-04.png)
+![Image](./img/water-man-04.png)
 
 ### RenderTypeの選び方
 
 WF_Water_Surface シェーダには RenderType の異なる3種類が存在します。
 
-![Image](./img/water-05.png)
+![Image](./img/water-man-05.png)
 
 - WF_Water_Surface_Opaque
   - 不透明シェーダです。水面下の描写(屈折・コースティクス・深度・その他の水面下のジオメトリ)が不要なときに使用してください。
@@ -74,15 +56,13 @@ WF_Water_Surface シェーダには RenderType の異なる3種類が存在し�
   - 上記の Transparent に『屈折』機能を追加したものです。品質は最高ですが、他のシェーダと比較すると高負荷です。
   - Quest環境では動作しないため、他シェーダに差し替える必要があります。(自動で差し替えるサポート機能を用意しました。後述)
 
-***
-
 以下、サンプルとして同梱している `mat_Day_Pool (TransparentRefracted)` を例に設定項目を解説していきます。
 
 ### Surface - 基本設定と透過 {#SurfaceBase}
 
 基本色と透過度の設定を行います。
 
-![Image](./img/water-06.png)
+![Image](./img/water-man-06.png)
 
 水面の色は2色まで指定することができます。波面ハイトマップから計算した波高に基づき、2色をブレンドして描画します。
 
@@ -90,7 +70,7 @@ WF_Water_Surface シェーダには RenderType の異なる3種類が存在し�
 
 水面を移動する波面を生成します。以下の設定が計3セット用意されていて、WF_Water_Surface では最大で3つまでの波面を合成して描画することができます。
 
-![Image](./img/water-07.png)
+![Image](./img/water-man-07.png)
 
 `UVタイプ` には UV1, UV2, WORLD_XZ を選ぶことができます。
 
@@ -101,13 +81,13 @@ WF_Water_Surface シェーダには RenderType の異なる3種類が存在し�
 サンプルでは WORLD_XZ を設定しています。この設定では波の大きさはメッシュの大きさと相関しないため、どの大きさのメッシュにも適用可能です。一方 WORLD_XZ では垂直面が正しく描画されません。
 UV 展開したメッシュであれば UV1 や UV2 のほうが適切になるため、適用先のメッシュの都合と合わせて調整してください。
 
-![Image](./img/water-08.png)
+![Image](./img/water-man-08.png)
 
 ### Surface - 光沢(スペキュラ) {#SurfaceSpecular}
 
 水面に光沢を付与します。WF_Water_Surface では最大2色までの光沢を追加できます。
 
-![Image](./img/water-09.png)
+![Image](./img/water-man-09.png)
 
 `滑らかさ` は、Standard シェーダにおける Smoothness に相当するパラメータです。滑らかさが大きいほど、光沢は狭く鋭くなります。滑らかさが小さいときは、光沢は広く淡くなります。
 
@@ -115,7 +95,7 @@ UV 展開したメッシュであれば UV1 や UV2 のほうが適切になる�
 
 水面に反射を付与します。
 
-![Image](./img/water-10.png)
+![Image](./img/water-man-10.png)
 
 サンプルマテリアルでは `キューブマップ混合タイプ` が CUSTOM に設定されていて、キューブマップが明示的に指定されています。
 ここを REFLECTION_PROBE に変更すると、指定したキューブマップではなくワールド側でベイクされた ReflectionProbe が映り込むようになります。
@@ -124,7 +104,7 @@ UV 展開したメッシュであれば UV1 や UV2 のほうが適切になる�
 
 水面下の屈折描写を追加します。(TransparentRefracted のみ)
 
-![Image](./img/water-11.png)
+![Image](./img/water-man-11.png)
 
 `屈折率` と `距離` のパラメータを変更すると、屈折による歪みの量を変化させることができます。
 
@@ -132,9 +112,9 @@ UV 展開したメッシュであれば UV1 や UV2 のほうが適切になる�
 
 視点から一定距離離れた先の色を調整できる機能です。
 
-![Image](./img/water-12.png)
+![Image](./img/water-man-12.png)
 
-![Image](./img/water-13.jpg)
+![Image](./img/water-man-13.jpg)
 
 `フェード距離 (Near)` と `フェード距離 (Far)` の単位はメートルです。Near で指定した距離だけ離れた位置から色調整が始まり、Far で指定した距離になると色調整が最大になります。
 
@@ -142,7 +122,7 @@ UV 展開したメッシュであれば UV1 や UV2 のほうが適切になる�
 
 ライトマップを読み取って影を描画する場合は有効にしてください。なお水面をライトベイクする際の注意点は後述します。
 
-![Image](./img/water-14.png)
+![Image](./img/water-man-14.png)
 
 `コントラスト` の初期値は 1.0 ですが、水面に使う場合は 0.4～0.8 くらいとするのが良いと思います。影が弱めに描画されます。
 
@@ -150,16 +130,18 @@ UV 展開したメッシュであれば UV1 や UV2 のほうが適切になる�
 
 光源方向をカスタマイズできます。光源方向は『光沢(スペキュラ)』およびLambert影にて使用されます。
 
-![Image](./img/water-15.png)
+![Image](./img/water-man-15.png)
 
 設定方法は [UnToon Manual -> Lit Advance](https://github.com/whiteflare/Unlit_WF_ShaderSuite/wiki/UnToon-Manual#lit-advance) と同様です。
 初期値は AUTO なので、通常は変更せずとも大丈夫のはずです。カスタマイズする際に変更してください。
+
+----
 
 ## コースティクスの描画
 
 WF_Water_Caustics を用いると水底にコースティクスを描画することができます。
 
-![Image](./img/water-16.png)
+![Image](./img/water-man-16.png)
 
 ### メッシュの用意
 
@@ -168,9 +150,7 @@ WF_Water_Caustics はコースティクスのみ描画するシェーダなの�
 
 簡単に行う場合、水底メッシュを Unity 上で複製してコースティクス用メッシュとしても大丈夫です。設定から水上部分にコースティクスを描画しないようにできるため、水上に出ている部分のある水底メッシュであってもそのまま複製して利用できます。
 
-![Image](./img/water-17.png)
-
-***
+![Image](./img/water-man-17.png)
 
 以下、サンプルとして同梱している `mat_DayFX_Caustics` を例に設定項目を解説していきます。
 
@@ -178,13 +158,13 @@ WF_Water_Caustics はコースティクスのみ描画するシェーダなの�
 
 コースティクスの色を指定できます。
 
-![Image](./img/water-18.png)
+![Image](./img/water-man-18.png)
 
 ### Caustics - 水 {#CausticsWater}
 
 水面高と、水上でコースティクスを非表示にするかどうかを設定できます。
 
-![Image](./img/water-19.png)
+![Image](./img/water-man-19.png)
 
 `水面高` はワールド座標上での水面のY座標を指定してください。初期値は 0 です。
 コースティクスが表示されない場合、水面高が正しく設定されているか確認してください。
@@ -193,7 +173,7 @@ WF_Water_Caustics はコースティクスのみ描画するシェーダなの�
 
 WF_Water_Surface と同様の設定項目が WF_Water_Caustics にもあります。ただしこちらはノーマルマップ＆ハイトマップではなく、コースティクステクスチャを指定します。
 
-![Image](./img/water-20.png)
+![Image](./img/water-man-20.png)
 
 コースティクステクスチャは単純なUVスクロールを行います。必要に応じてパターンを差し替えてみてください。
 
@@ -202,50 +182,50 @@ WF_Water_Surface と同様の設定項目が WF_Water_Caustics にもありま�
 WF_Water_Surface と同様、WF_Water_Caustics でもライトマップを読み取ることができます。
 影の部分はコースティクスが弱めに描画されます。
 
-![Image](./img/water-21.png)
+![Image](./img/water-man-21.png)
 
 `コントラスト` の初期値は 1.0 ですが、水面に使う場合は 0.4～0.8 くらいとするのが良いと思います。影が弱めに描画されます。
+
+----
 
 ## 深度の描画
 
 水の透明度・不透明度を『深度 (DepthFog)』として描画することができます。
 水深が深くなるにつれて水底が見えにくくなるといった効果を追加することができます。
 
-![Image](./img/water-22.png)
+![Image](./img/water-man-22.png)
 
 マテリアルの設定先は、コースティクスと同じく水底メッシュ(を複製したもの)です。
 コースティクスと併用したい場合は、『水底メッシュ』『コースティクスメッシュ』『深度メッシュ』の3つを用意してください。
 
-![Image](./img/water-23.png)
-
-***
+![Image](./img/water-man-23.png)
 
 以下、サンプルとして同梱している `mat_DayFX_DepthFog` を例に設定項目を解説していきます。
 
 ### DepthFog - 基本設定と水 {#DepthFogBase}
 
-![Image](./img/water-24.png)
+![Image](./img/water-man-24.png)
 
 フォグの色を指定できます。水中での距離が長ければ長いほどフォグが強く掛かり、最終的に `フォグの色` で指定した色に集束します。
 
 `水の透明度` の単位はメートルです。10と指定した場合、10メートル先はフォグが最大になるため水底を判別できなくなります。
 
+----
+
 ## 光源からの反射の描画
 
 水面への光源の映り込みを『Sun Reflection』『Lamp Reflection』機能で描画することができます。
 
-![Image](./img/water-25.png)
-![Image](./img/water-26.png)
+![Image](./img/water-man-25.png)
+![Image](./img/water-man-26.png)
 
 マテリアルの設定先は水面メッシュ(を複製したもの)です。
-
-***
 
 以下、サンプルとして同梱している `mat_NightFX_SunReflection` `mat_NightFX_LampReflection` を例に設定項目を解説していきます。
 
 ### Sun Reflection {#SunReflection}
 
-![Image](./img/water-27.png)
+![Image](./img/water-man-27.png)
 
 太陽光からの反射を描画します。太陽の方向は `太陽の方角` `太陽の高度` から設定してください。
 `Cookie` に設定したテクスチャで映り込みを行います。
@@ -253,7 +233,7 @@ WF_Water_Surface と同様、WF_Water_Caustics でもライトマップを読み
 
 ### Lamp Reflection {#LampReflection}
 
-![Image](./img/water-28.png)
+![Image](./img/water-man-28.png)
 
 点光源からの反射を描画します。光源の位置は `位置` から設定してください。メッシュの設定したオブジェクトを起点としたローカル座標系で位置を指定します。
 `Cookie` に設定したテクスチャで映り込みを行います。
@@ -262,8 +242,9 @@ WF_Water_Surface と同様、WF_Water_Caustics でもライトマップを読み
 LampReflection は Batching(Dynamic|Static) を無視しますが、GPU Instancing により多数のオブジェクトを一度に描画することができます。
 マテリアル設定の `Enable GPU Instancing` がチェックされている場合、同一マテリアルのオブジェクトがひとつの SetPassCall にまとめられ、負荷を軽減することができます。
 
-![Image](./img/water-29.png)
+![Image](./img/water-man-29.png)
 
+----
 
 ## ライトベイクする際のポイント
 
@@ -273,13 +254,13 @@ Water_Surface および Water_Caustics はライトマップを読み取るこ�
 
 画像で示すと次の状態になります。
 
-![Image](./img/water-30.png)
+![Image](./img/water-man-30.png)
 
-![Image](./img/water-31.png)
+![Image](./img/water-man-31.png)
 
 なお、DoubleSidedGloballIllumination がチェックされていない場合、次のような情報が表示されます。ここで `Fix Now` を押しても修正することが可能です。
 
-![Image](./img/water-32.png)
+![Image](./img/water-man-32.png)
 
 ## RenderQueue 設計について
 
@@ -319,7 +300,7 @@ Water_Surface および Water_Caustics はライトマップを読み取るこ�
 Water_Surface_Transparent_Refracted で利用可能な『屈折』機能は Quest で動作しません。屈折を除いた Water_Surface_Transparent に差し替える必要があります。
 差し替えはツールから一括で行うことが可能で、マテリアルを選択して `UnlitWF Material Tools` → `シェーダ切り替え` → `モバイル向けシェーダに変換する` で変更できます。
 
-![Image](./img/water-33.png)
+![Image](./img/water-man-33.png)
 
 なお、こちらの機能はフォルダ単位で選択して「モバイル向けシェーダに変換する」を行っても問題ないように作られています。
 

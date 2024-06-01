@@ -1,39 +1,22 @@
-# UnlitWF/FakeFur Manual
+# UnlitWF/FakeFur
 
 UnlitWF/FakeFur は、UnToon をベースにしたファーシェーダです。
 このページでは UnlitWF/FakeFur の設定方法について説明します。
 
 ![Image](./img/fakefur-man-03.png)
 
+----
 
-## General
+## 設定項目の説明
 
-### カスタムインスペクタの日本語化 {#l10n}
-
-インスペクタの最下部に `Editor language` の設定があります。『日本語』にすると設定項目名が日本語化されます。
-これはUnityEditorで共通の設定のため、どこかひとつのマテリアルで設定されると他マテリアルでも設定が引き継がれます。
-
-![Image](./img/untoon-man-01.png)
-
-### バリアントの切り替え {#Variants}
-
-インスペクタ最上段に、現在使用しているシェーダの説明が表示されます。
-
-![Image](./img/untoon-man-02.png)
-
-- `Family` からシェーダの系列を切り替えることができます。`UnToon`, `FakeFur`, `Gem`, `Grass`, `Water` などに切り替えることができます。
-- `Variant` からシェーダのタイプを切り替えることができます。Outline や Mobile などに切り替えることができます。
-- `RenderType` から描画モードを切り替えることができます。Opaque や Transparent などに切り替えることができます。
-
-
-## Base 基本設定 {#Base}
+### Base 基本設定 {#Base}
 
 ![Image](./img/fakefur-man-01.png)
 
 - インスペクタ最上段に `メインテクスチャ` `マテリアルカラー` の設定項目があります。
 - ファーをカットアウト描画するシェーダでは、ここに `カットアウトしきい値` も現れます。
 
-## Fake Fur ファー {#FakeFur}
+### Fake Fur ファー {#FakeFur}
 
 ファーについて設定します。
 
@@ -56,6 +39,7 @@ UnlitWF/FakeFur は、UnToon をベースにしたファーシェーダです。
   - `マスクテクスチャ` にて、ファーの高さを制御することができます。黒が高さ0、白が高さ100%です。
   - ファー部分とファー以外の部分は、マスクテクスチャで塗り分けるのではなくマテリアルを分割することを推奨します。FakeFurシェーダが描画する頂点数をなるべく少なくしてください。
 
+----
 
 ## 簡易設定手順
 
