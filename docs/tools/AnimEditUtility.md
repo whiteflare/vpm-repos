@@ -83,13 +83,7 @@ ExParam が指定されているとき、AnimatorController に新しい変数�
 
 ### 使い方C：WriteDefault (オンで構成された AnimatorController  を WriteDefault オフに変更する) {#C}
 
-この機能については、Hierarchy にショートカットがあります。
-
-- Hierarchy でアバタールートを右クリック → 『WriteDefaultをオフにする』
-
-![Image](./img/AnimEditUtility-07.png)
-
-ユーティリティのウィンドウが開き、AnimatorController には FX レイヤーの Animator がセットされます。
+WriteDefault オンで作成された AnimatorController を WriteDefault オフに変更します。
 
 ![Image](./img/AnimEditUtility-08.png)
 
@@ -104,13 +98,7 @@ ExParam が指定されているとき、AnimatorController に新しい変数�
 
 ### 使い方D：Setup AvatarMask (VRC Avatars3.0 の AvatarMask を構成する) {#D}
 
-この機能については、Hierarchy にショートカットがあります。
-
-- Hierarchy でアバタールートを右クリック → 『AvatarMaskのセットアップ』
-
-![Image](./img/AnimEditUtility-09.png)
-
-ユーティリティのウィンドウが開き、AnimatorController には FX レイヤーの Animator がセットされます。
+アバターに設定されたFX Controllerを読み取り、AvatarMask を構成します。古いアバターの Gesture が動かないケースの修復に使用できます。
 
 ![Image](./img/AnimEditUtility-10.png)
 
