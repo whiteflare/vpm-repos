@@ -45,11 +45,23 @@ Culling を操作できるバリアントでは `カリングモード` も現�
 - アウトラインの色を `線色テクスチャ` から指定することもできます(UVはMainTextureと同じ)。ブレンド強度は `線色テクスチャとブレンド` にて調整してください。
 - `カメラから遠ざける` を調整することで、アウトラインのメッシュを近づけたり遠ざけたりすることができます。
 
+### MainTexture 2nd メインテクスチャ2nd {#MainTex2nd}
+
+メインテクスチャに2枚目のテクスチャを重ねて描画します。
+
+![Image](./img/untoon-man-37.png)
+
+- `UVタイプ` では UV1 と UV2 のどちらで重ねるかを指定できます。
+- 重ねる強さはメインテクスチャ2ndあるいはマテリアルカラー2ndのアルファ値が使用されます。アルファ `1.0` にて不透明度100%となり、アルファ `0.0` では2ndメインテクスチャは描画されません。
+- 重ねる範囲をマスクテクスチャにて指定できます。
+
 ### BackFace Texture 裏面テクスチャ {#BackFaceTexture}
 
 裏面に MainTex とは異なる色・テクスチャを使用する時に設定します。
 
 ![Image](./img/untoon-man-06.png)
+
+- `UVタイプ` では UV1 と UV2 のどちらで重ねるかを指定できます。
 
 ### Gradient Map グラデーションマップ {#GradientMap}
 
@@ -230,15 +242,18 @@ EmissiveScroll を使用する時は `スクロールを使用する` をチェ�
 
 ![Image](./img/untoon-man-23.png)
 
-- EmissiveScroll の `波形` を数種類から選ぶことができます。
 - `方向の種類` では、スクロールするときの座標系を WORLD_SPACE(ワールド空間)、LOCAL_SPACE(ローカル空間)、UV1、UV2 から選ぶことができます。
+- EmissiveScroll の `波形` を数種類から選ぶことができます。波形を「カスタム」に設定すると、波形をグラデーションマップテクスチャにて指定することができます。
 
 Emission を AudioLink と連動させるときは `AudioLink を使用する` をチェックしてください。
 
 ![Image](./img/untoon-man-24.png)
 
-チェックを入れた場合、AudioLink が有効なワールドでは EmissiveScroll を上書きして Emissive AudioLink が使用されます。
-AudioLink が無効なワールドでは Emission および EmissiveScroll が使用されます。もし AudioLink が無効時には Emission 自体を無効にしたい場合は `AudioLink無効時は光らせない` をチェックしてください。
+チェックを入れた場合、AudioLink が有効なワールドでは EmissiveScroll を上書きして Emissive AudioLink が使用されます。AudioLink が無効なワールドでは Emission および EmissiveScroll が使用されます。
+
+- `AudioLink無効時は光らせない` をチェックすると、AudioLink が無効なワールドでは Emission 自体が無効になります。
+- `ディレイ方向` にて AudioLink のディレイを指定できます。UV1_X or Y、UV2_X or Y、または UV1_TEX から選ぶことができます。UV1_TEX を選択したときの「ディレイ制御テクスチャ」は、黒が遅延なし、白が遅延最大となるマスクテクスチャを指定します。
+  - `ディレイ反転` をチェックするとディレイ方向が反転します。
 
 ### Fog フォグ {#Fog}
 
