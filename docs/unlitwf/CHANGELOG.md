@@ -5,6 +5,17 @@ toc_max_heading_level: 2
 
 # Change Log
 
+## 2024-07-27 (2.2.1)
+https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/tag/UnlitWF_Shader_20240727
+
+### Fixed
+- Tool
+  - Android環境にてシーンにMaterial Variantが含まれている場合に再生およびビルドのプログレスバーが完了しない問題を修正しました。
+    - Project右クリックから「UnlitWFのマテリアルに変換する」または「モバイル向けシェーダに変換する」のとき、Material Variantを対象としたときはフラット化される仕様となりました。
+  - 「UnlitWFのマテリアルに変換する」した結果、影2が影1と同じ色になってしまっていた問題を修正しました。
+
+----
+
 ## 2024-07-21 (2.2.0)
 https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/tag/UnlitWF_Shader_20240721
 
