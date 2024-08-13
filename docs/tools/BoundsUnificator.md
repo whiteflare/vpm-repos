@@ -11,7 +11,7 @@
 
 ## 使い方
 
-### 大雑把な流れ
+### 手動で設定する {#manual}
 
 `Tools` → `whiteflare` → `Bounds Unificator` から開くと、こんなウィンドウが出てきます。
 
@@ -31,14 +31,25 @@
 
 [^2]: メッシュが Bounds からはみ出していても問題ないのですが、あまりに掛け離れた場所に Bounds が設定されている場合、カリングが働いてメッシュが消えてしまうなどの問題が出てきます。
 
+### 自動で設定する (NDMF併用) {#auto}
+
+VRCSDK3 Avatar のルートオブジェクトに `Add Component` から `[BU] Set Anchor And Bounds` を追加してください。
+
+![Image](./img/BoundsUnificator-03.png)
+
+[Non-Destructive Modular Framework](https://modular-avatar.nadena.dev/ja) を用いて、アバタービルド時に自動的に AnchorOverride/RootBone/Bounds を調整します。
+計算方法は `Skinned Vertex` が用いられます。
+
+
 ## 細かい仕様
 
 ### Calculate Bounds の計算について
 
 - 計算方法は Calc Method から選ぶことができます。
-    - `Prefab Value`: プレハブ(多くはFBX自体)のなかの SkinnedMeshRenderer に設定された Bounds をもとに AABB を計算します。
-    - `Current Value Only`: プレハブ外にて現在設定された Bounds をもとに計算します。
-    - `Bone Transform`: SkinnedMeshRenderer の Bounds は使用せず、各 SkinnedMeshRenderer のボーンの根元座標をもとに AABB を計算します。
+    - `Skinned Vertex` : ボーンを反映した後のメッシュ頂点座標をもとに AABB を計算します。
+    - `Prefab Value` : プレハブ(多くはFBX自体)のなかの SkinnedMeshRenderer に設定された Bounds をもとに AABB を計算します。
+    - `Current Value Only` : プレハブ外にて現在設定された Bounds をもとに計算します。
+    - `Bone Transform` : ボーンの根元座標をもとに AABB を計算します。
 - Bounds の値は、自動計算ではキリよく 0.01 単位になるはずです。
 
 ### RootBone の自動検索について
@@ -55,7 +66,7 @@
     3. Humanoid リグの Chest
     4. 見つからない場合、`Root Object` がそのまま設定されます。
 
-### ボーンを持たない SkinnedMeshRenderer の扱いについて (ver2021/06/25)
+### ボーンを持たない SkinnedMeshRenderer の扱いについて
 
 - ボーンで動かない SkinnedMeshRenderer は、MeshRenderer と同じく AnchorOverride の統一だけするようになっています。
 
