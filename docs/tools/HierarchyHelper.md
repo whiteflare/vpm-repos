@@ -1,6 +1,6 @@
 # HierarchyHelper
 
-Unity の Hierarchy 表示を拡張する Unity 拡張エディタです。Unity `2018.4.20f1`  を想定しています。  
+Unity の Hierarchy 表示を拡張する Unity 拡張エディタです。
 特定条件の GameObject をハイライト表示したり選択したりすることができます。
 
 ## 使い方
@@ -15,33 +15,34 @@ Unity の Hierarchy 表示を拡張する Unity 拡張エディタです。Unity
 
 - `Highlight` のチェックボックスで、強調表示を ON/OFF できます。ハイライトの色は ColorPicker で指定してください。
 - `Mode` を変更すると、ハイライト対象の GameObject を切り替えることができます。
-    1. **EditorOnly**
-        - タグ EditorOnly が指定されている GameObject を強調表示します。
-    1. **Batching Static**
-        - Batching Static が設定されている GameObject を強調表示します。
-    1. **Lightmap Static**
-        - Lightmap Static が設定されている GameObject を強調表示します。
-    1. **ReflectionProbe Static**
-        - ReflectionProbe Static が設定されている GameObject を強調表示します。
-    1. **Occluder Static**
-        - Occluder Static が設定されている GameObject を強調表示します。
-    1. **Occludee Static**
-        - Occludee Static が設定されている GameObject を強調表示します。
-    1. **SkinnedMeshRenderer**
-        - SkinnedMeshRenderer がアタッチされている GameObject を強調表示します。
-    1. **SkinnedMeshRenderer Bones**
-        - SkinnedMeshRenderer のボーンに指定されている GameObject を強調表示します。
-    1. **MeshRenderer**
-        - MeshRenderer がアタッチされている GameObject を強調表示します。
-    1. **Realtime Light**
-        - Realtime な Light がアタッチされている GameObject を強調表示します。
-    1. **Mixed Light**
-        - Mixed な Light がアタッチされている GameObject を強調表示します。
-    1. **Baked Light**
-        - Baked な Light がアタッチされている GameObject を強調表示します。
-    1. **LightProbeGroup**
-        - LightProbeGroup がアタッチされている GameObject を強調表示します。
-    1. **ReflectionProbe**
-        - ReflectionProbe がアタッチされている GameObject を強調表示します。
 - `select objects` ボタンを押すと、ハイライト表示されているオブジェクトを選択することができます。
 
+### モード一覧
+
+1. **EditorOnly** - タグ EditorOnly が指定されている GameObject を強調表示します。
+2. **Static** - 各Staticフラグが設定されている GameObject を強調表示します。
+    1. **Batching Static**
+    2. **Lightmap Static**
+    3. **ReflectionProbe Static**
+    4. **Occluder Static**
+    5. **Occludee Static**
+3. **Renderer** - 各Rendererコンポーネントがアタッチされている GameObject を強調表示します。
+    1. **SkinnedMesh Renderer**
+    2. **SkinnedMesh Renderer Bones**
+    3. **Mesh Renderer**
+    4. **ParticleSystem**
+    5. **Traill Renderer**
+    6. **Line Renderer**
+4. Light - 各ライトコンポーネントがアタッチされている GameObject を強調表示します。
+    1. **Realtime Light**
+    2. **Mixed Light**
+    3. **Baked Light**
+    4. **LightProbeGroup**
+    5. **ReflectionProbe**
+5. **Contstraint** - Constraint(ParentConstraint, AimConstraintなど) がアタッチされている GameObject を強調表示します。
+6. **VRC** - VRC関連のコンポーネントがアタッチされている GameObject を強調表示します。
+    1. **PhysBone**
+    2. **PhysBone Collider**
+    3. **Contact Receiver**
+    4. **Contact Sender**
+    5. **Constraint** - VRCのConstraint(VRCParentConstraintなど) がアタッチされている GameObject を強調表示します。
