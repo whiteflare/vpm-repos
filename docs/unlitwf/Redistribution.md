@@ -72,7 +72,7 @@ UnlitWF は `Shaders` フォルダおよび `Editor` フォルダ以外は不要
 
 ## 付録. ライセンスの解説
 
-UnlitWF は MIT LICENSE にて配布されています。そのため、
+UnlitWF は zlib/libpng にて配布されています。[^1] そのため、
 
 - UnlitWF を利用したオブジェクトを unitypackage として export するにあたり、
   - 再配布自由 : UnlitWF の複製を unitypackage に同梱することができます。
@@ -87,3 +87,5 @@ UnlitWF は MIT LICENSE にて配布されています。そのため、
 
 といった条件にて利用することができます。
 再配布する際にも考慮していただけると幸いです。
+
+[^1]: 20240907以前は MIT LICENSE にて配布していました。(参考:[The MIT License](https://licenses.opensource.jp/MIT/MIT.html))<br/>20240907以降は zlib/libpng License にて配布しています。(参考:[zlib/libpng license](https://licenses.opensource.jp/Zlib/Zlib.html))
