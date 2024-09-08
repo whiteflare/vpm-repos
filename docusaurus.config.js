@@ -109,11 +109,11 @@ const config = {
             title: 'Contact',
             items: [
               {
-                label: 'X-Twitter',
-                href: 'https://twitter.com/whiteflare',
+                label: 'whiteflare_vrc@X-Twitter',
+                href: 'https://twitter.com/whiteflare_vrc',
               },
               {
-                label: 'misskey.niri.la',
+                label: 'whiteflare@misskey.niri.la',
                 href: 'https://misskey.niri.la/@whiteflare',
               },
             ],
