@@ -12,12 +12,6 @@ VRCPhysBone や Constraint の一括コピーおよび参照の貼り直しが�
     - SkinnedMeshRenderer
     - MeshRenderer + MeshFilter
     - ParticleSystem + ParticleSystemRenderer
-- VRCSDK系
-    - VRC_AvatarDescriptor
-    - VRCPhysBone
-    - VRCPhysBoneCollider
-    - VRCContactSender
-    - VRCContactReceiver
 - Constraint系
     - PositionConstraint
     - RotationConstraint
@@ -25,6 +19,21 @@ VRCPhysBone や Constraint の一括コピーおよび参照の貼り直しが�
     - ParentConstraint
     - LookAtConstraint
     - AimConstraint
+- VRCSDK系
+    - VRC_AvatarDescriptor
+    - PhysBone
+        - VRCPhysBone
+        - VRCPhysBoneCollider
+    - Contact
+        - VRCContactSender
+        - VRCContactReceiver
+    - Constraint
+        - VRCPositionConstraint
+        - VRCRotationConstraint
+        - VRCScaleConstraint
+        - VRCParentConstraint
+        - VRCLookAtConstraint
+        - VRCAimConstraint
 
 なお Cloth, DynamicBone のコピーには非対応です。
 

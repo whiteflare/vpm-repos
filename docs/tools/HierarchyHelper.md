@@ -46,3 +46,4 @@ Unity の Hierarchy 表示を拡張する Unity 拡張エディタです。
     3. **Contact Receiver**
     4. **Contact Sender**
     5. **Constraint** - VRCのConstraint(VRCParentConstraintなど) がアタッチされている GameObject を強調表示します。
+7. **Missing Script** - MissingとなっているComponentがアタッチされている GameObject を強調表示します。
