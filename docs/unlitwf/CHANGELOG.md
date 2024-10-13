@@ -3,6 +3,20 @@ toc_min_heading_level: 2
 toc_max_heading_level: 2
 ---
 
+## 2024/10/14 (2.4.0)
+https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/tag/UnlitWF_Shader_20241014
+
+### Added
+- GUI
+  - メインテクスチャに色調整などをベイクするボタンを、インスペクタ最下部に追加しました。
+
+### Changed
+- Shader
+  - Metallic の GSAA を、ToggleからRangeに変更しました。GSAAの適用具合を調整することができるようになりました。
+  - リムライトでメインカラーを混合するToggleを追加しました。
+
+----
+
 # Change Log
 
 ## 2024-09-07 (2.3.0)
