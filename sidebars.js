@@ -75,6 +75,11 @@ const sidebars = {
         },
         {
           type: 'doc',
+          id: 'unlitwf/WF-AvatarMenu',
+          label: 'アバター向けメニュー',
+        },
+        {
+          type: 'doc',
           id: 'unlitwf/Redistribution',
           label: '再配布について',
         },
