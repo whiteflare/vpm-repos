@@ -3,6 +3,15 @@ toc_min_heading_level: 2
 toc_max_heading_level: 2
 ---
 
+## 2024/12/17 (2.6.1)
+https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/tag/UnlitWF_Shader_20241217
+
+### Fixed
+- Shader
+  - エミッションを利用しているシェーダをライトベイクするとエラーが発生していた問題を修正しました。
+
+----
+
 ## 2024/12/15 (2.6.0)
 https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/tag/UnlitWF_Shader_20241215
 
