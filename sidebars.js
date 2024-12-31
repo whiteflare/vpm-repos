@@ -118,7 +118,7 @@ const sidebars = {
         {
           type: 'doc',
           id: 'tools/BakeKillerFinder',
-          label: 'BakeKillerFinder改',
+          label: 'BakeKillerFinder改二',
         },
         {
           type: 'doc',
