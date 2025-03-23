@@ -47,7 +47,7 @@
 - `マテリアルの不要データを削除` を押すと、現在のマテリアルにある未使用の値をクリアします。
 
 
-## WFEditorSetting {#WWFEditorSetting}
+## WFEditorSetting {#WFEditorSetting}
 
 その他の設定項目は WFEditorSetting アセットにあります。
 
@@ -61,7 +61,7 @@ WFEditorSetting アセットはプロジェクトに格納されているアセ�
 In Assets ではなく In Packages に入っている場合があります。『All』で表示するとプロジェクト内の全ての WFEditorSetting アセットを表示することができます。  
 また、インスペクタ最下部の「現在アクティブな設定ファイルを選択」ボタンを押すと、有効になっている WFEditorSetting アセットを直接表示させることも可能です。
 
-### Common Material Settings {#WWFEditorSetting-CommonMaterialSettings}
+### Common Material Settings {#WFEditorSetting-CommonMaterialSettings}
 
 UnlitWFマテリアル共通の設定項目です。  
 `Force ON` or `Force OFF` に設定すると、ビルド時にマテリアルの指定の値をオン or オフに強制的に設定します。またマテリアルのインスペクタに設定項目は表示されません。  
@@ -82,7 +82,7 @@ UnlitWFマテリアル共通の設定項目です。
 上記以外の項目は Per Material に設定されています。
 :::
 
-### Shader Build Settings {#WWFEditorSetting-ShaderBuildSettings}
+### Shader Build Settings {#WFEditorSetting-ShaderBuildSettings}
 
 UnlitWFシェーダをビルドするときの挙動を制御します。
 
@@ -95,7 +95,7 @@ UnlitWFシェーダをビルドするときの挙動を制御します。
 
 初期値は全てオンです。これによりビルド時間の短縮とビルドサイズの削減が行われます。
 
-### Quest Build Support {#WWFEditorSetting-QuestBuildSupport}
+### Quest Build Support {#WFEditorSetting-QuestBuildSupport}
 
 (VRCSDK3ワールド環境のみ) Android環境でビルドしたとき、UnlitWFシェーダを自動的にモバイル環境で動くバリアントに差し替えます。  
 これにより一部の描画処理が無効化されるものの、Android環境で正常動作するシェーダがビルドに乗ります。  
@@ -103,7 +103,7 @@ UnlitWFシェーダをビルドするときの挙動を制御します。
 オフにした場合は変換処理が省略され、Android環境で正常動作しないバリアントがビルドに含まれる可能性があります。  
 なお、オンオフどちらの場合でも、Android環境でサポートされないバリアントがビルドに含まれた場合には、コンソールに警告が表示されます。
 
-### Editor Behaviour Settings {#WWFEditorSetting-EditorBehaviourSettings}
+### Editor Behaviour Settings {#WFEditorSetting-EditorBehaviourSettings}
 
 UnityEditor内でのツールの挙動を設定します。
 
