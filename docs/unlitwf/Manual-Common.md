@@ -75,6 +75,7 @@ UnlitWFマテリアル共通の設定項目です。
 - VRCSDK3 アバター
   - カメラのニアクリップを無視 = Force ON
   - CameraDepthTextureを使う = Force OFF
+  - VRC LightVolumesを使う = Force ON
 - VRCSDK3 ワールド
   - カメラのニアクリップを無視 = Force OFF
   - 逆光補正しない = Force ON

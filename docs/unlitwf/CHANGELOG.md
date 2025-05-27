@@ -3,6 +3,26 @@ toc_min_heading_level: 2
 toc_max_heading_level: 2
 ---
 
+## 2025/05/28 (2.9.0)
+https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/tag/UnlitWF_Shader_20250528
+
+### Added
+- Shader
+  - VRC LightVolumes に対応しました。LightVolumes が有効なワールドでは、環境光をライトプローブから取得するかわりに LightVolumes から取得します。
+
+### Changed
+- Shader
+  - 環境光の取得ロジックを最適化しました。
+- GUI
+  - VRCFallback の設定GUIから `ToonStandard`, `ToonStandardOutline` を選択できるようになりました。
+
+### Fixed
+- Shader
+  - FakeFur の「太陽光のモード」がシェーダキーワードを使っていなかったのを修正しました。
+  - Gem に「カメラのニアクリップを無視」が追加されていなかったのを修正しました。
+
+----
+
 ## 2025/03/23 (2.8.0)
 https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/tag/UnlitWF_Shader_20250323
 
