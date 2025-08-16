@@ -3,12 +3,23 @@ toc_min_heading_level: 2
 toc_max_heading_level: 2
 ---
 
-## 2025/05/28 (2.10.0)
+## 2025/08/16 (2.10.1)
+https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/tag/UnlitWF_Shader_20250816
+
+### Changed
+- Shader
+  - VRC LightVolumes 2.0.1 に対応しました。
+
+----
+
+## 2025/08/03 (2.10.0)
 https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/tag/UnlitWF_Shader_20250803
 
 ### Changed
 - Shader
   - VRC LightVolumes 2.0 に対応しました。
+
+----
 
 ## 2025/05/28 (2.9.0)
 https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/tag/UnlitWF_Shader_20250528
