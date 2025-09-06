@@ -3,6 +3,19 @@ toc_min_heading_level: 2
 toc_max_heading_level: 2
 ---
 
+## 2025/09/06 (2.11.0)
+https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/tag/UnlitWF_Shader_20250906
+
+### Added
+- Shader
+  - `_UdonForceSceneLighting` に対応しました。VRCShader.SetGlobalInteger から設定することでマテリアルのライティング設定値を無効化できます。
+
+### Changed
+- Shader
+  - PowerCap にて全ての matcap を有効にしたとき、サンプラー上限に抵触してマテリアルエラーとなってしまう問題を修正しました。この変更により既存の matcap はバイリニア＆クランプに設定されたサンプラー1個から読み込まれます。サンプラー数を削減しました。
+
+----
+
 ## 2025/08/16 (2.10.1)
 https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases/tag/UnlitWF_Shader_20250816
 
