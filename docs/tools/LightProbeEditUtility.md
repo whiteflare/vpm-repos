@@ -8,7 +8,7 @@ VRCワールド制作向けに作成しました。
 
 ### LightProbe の可視化
 
-UnityEditor のメニュー `GameObject` → `Create Other` → `LightProbeVisualizer` を選択すると、可視化ツールがシーンに配置されます。
+Hierarchy を右クリック → `ライトプローブ編集` → `ライトプローブ可視化ツール` を選択すると、可視化ツールがシーンに配置されます。
 
 Prefab にアタッチされているスクリプトが、操作パネルです。
 
