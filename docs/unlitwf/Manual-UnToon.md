@@ -58,6 +58,15 @@ Culling を操作できるバリアントでは `カリングモード` も現�
 - `UVタイプ` では UV1 と UV2 のどちらで重ねるかを指定できます。
 - 重ねる強さはメインテクスチャ2ndあるいはマテリアルカラー2ndのアルファ値が使用されます。アルファ `1.0` にて不透明度100%となり、アルファ `0.0` では2ndメインテクスチャは描画されません。
 - 重ねる範囲をマスクテクスチャにて指定できます。
+- `混合タイプ` では、メインテクスチャ2ndのブレンド方法を指定できます。
+  - ALPHA: アルファブレンド
+  - ADD: 加算合成 `base.rgb + decal.rgb`
+  - MUL: 乗算合成 `base.rgb * decal.rgb`
+  - ADD_AND_SUB: 加算合成の亜種で、零点が黒ではなく灰色のものです。 `base.rgb + decal.rgb - GRAY.rgb`
+  - SCREEN: スクリーン合成 `1 - (1 - base,rgb) * (1 - decal.rgb)`
+  - OVERLAY: オーバーレイ合成 `lerp(2 * base.rgb * decal.rgb, 1 - 2 * (1 - base.rgb) * (1 - decal.rgb), step(calcBrightness(base.rgb), 0.5))`
+  - HARD_LIGHT: ハードライト合成 `lerp(2 * base.rgb * decal.rgb, 1 - 2 * (1 - base.rgb) * (1 - decal.rgb), step(calcBrightness(decal.rgb), 0.5))`
+  - LINEAR_BURN: 焼き込みリニア合成 `base.rgb + decal.rgb - 1`
 
 ### BackFace Texture 裏面テクスチャ {#BackFaceTexture}
 
@@ -248,6 +257,7 @@ ToonShade の詳細を ToonShade Advance から設定できます。
   - SCREEN: スクリーン合成 `1 - (1 - base,rgb) * (1 - decal.rgb)`
   - OVERLAY: オーバーレイ合成 `lerp(2 * base.rgb * decal.rgb, 1 - 2 * (1 - base.rgb) * (1 - decal.rgb), step(calcBrightness(base.rgb), 0.5))`
   - HARD_LIGHT: ハードライト合成 `lerp(2 * base.rgb * decal.rgb, 1 - 2 * (1 - base.rgb) * (1 - decal.rgb), step(calcBrightness(decal.rgb), 0.5))`
+  - LINEAR_BURN: 焼き込みリニア合成 `base.rgb + decal.rgb - 1`
 - `UV外の扱い` ではオーバーレイテクスチャのタイリングについて指定できます。`REPEAT` は繰り返し、`CLIP` はUV外を描画しません。<br />デカールなどのワンポイントとするテクスチャは CLIP とすると便利です。
 
 ### Distance Fade 距離フェード {#DistanceFade}
